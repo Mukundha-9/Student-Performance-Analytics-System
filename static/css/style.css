@@ -1152,13 +1152,13 @@ body {
     margin-bottom: 8px;
 }
 .ht-university-logo {
-    height: 60px;
-    width: auto;
-    max-width: 250px;
+    height: 64px;
+    width: 64px;
+    max-width: 70px;
     object-fit: contain;
     display: block;
     margin: 0 auto;
-    filter: drop-shadow(0 2px 8px rgba(15, 23, 42, 0.06));
+    filter: drop-shadow(0 2px 8px rgba(15, 43, 92, 0.12));
 }
 .ht-header h2,
 .ht-header .ht-title {
@@ -1472,18 +1472,18 @@ body {
 }
 .login-university-logo,
 .login-main-logo {
-    height: 72px;
-    width: auto;
-    max-width: 260px;
+    height: 84px;
+    width: 84px;
+    max-width: 90px;
     object-fit: contain;
     display: block;
     margin: 0 auto;
-    filter: drop-shadow(0 4px 14px rgba(15, 23, 42, 0.08));
-    transition: transform 0.25s ease;
+    filter: drop-shadow(0 6px 16px rgba(15, 43, 92, 0.15));
+    transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
 .login-university-logo:hover,
 .login-main-logo:hover {
-    transform: scale(1.03);
+    transform: scale(1.06);
 }
 .login-portal-title {
     font-size: 25px;
@@ -4574,11 +4574,12 @@ body.cursor-hidden .aditya-motion-cursor {
 }
 
 .sidebar-brand-img {
-    height: 42px;
-    width: auto;
-    max-width: 175px;
+    height: 38px;
+    width: 38px;
+    max-width: 42px;
     object-fit: contain;
     display: block;
+    filter: drop-shadow(0 2px 6px rgba(15, 43, 92, 0.15));
 }
 
 .sidebar-portal-badge {
@@ -4600,10 +4601,11 @@ body.cursor-hidden .aditya-motion-cursor {
 
 .nav-brand-img {
     height: 32px;
-    width: auto;
-    max-width: 140px;
+    width: 32px;
+    max-width: 36px;
     object-fit: contain;
     display: block;
+    filter: drop-shadow(0 2px 4px rgba(15, 43, 92, 0.12));
 }
 
 .nav-portal-badge {
