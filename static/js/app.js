@@ -59,35 +59,25 @@ document.addEventListener('DOMContentLoaded', () => {
     loadAcademicReport();
 });
 
-// Theme Switcher
+// Theme Switcher (Available ONLY on Main Three Login Page)
 function initTheme() {
-    // Permanent Light Mode as requested by user
-    applyTheme('light', false);
-    localStorage.setItem('aditya-theme', 'light');
+    const savedLoginTheme = localStorage.getItem('aditya-login-theme') || 'light';
+    applyTheme(savedLoginTheme, false);
 }
 
 function applyTheme(theme, showNotice = true) {
     document.documentElement.setAttribute('data-theme', theme);
-    localStorage.setItem('aditya-theme', theme);
+    localStorage.setItem('aditya-login-theme', theme);
 
-    // Update Top Navbar Button
-    const navIcon = document.getElementById('theme-icon');
-    const navLabel = document.getElementById('navbar-theme-label');
-    if (navIcon) navIcon.className = theme === 'light' ? 'fa-solid fa-moon' : 'fa-solid fa-sun';
-    if (navLabel) navLabel.innerText = theme === 'light' ? 'Dark Mode' : 'Light Mode';
-
-    // Update Login Screen Button
+    // Update Login Screen Theme Toggle Button
     const loginIcon = document.getElementById('login-theme-icon');
     const loginLabel = document.getElementById('login-theme-label');
     if (loginIcon) loginIcon.className = theme === 'light' ? 'fa-solid fa-moon' : 'fa-solid fa-sun';
     if (loginLabel) loginLabel.innerText = theme === 'light' ? 'Dark Mode' : 'Light Mode';
 
     if (showNotice) {
-        showToast(`Switched to ${theme.toUpperCase()} Theme`, 'info');
+        showToast(`Login screen switched to ${theme.toUpperCase()} theme`, 'info');
     }
-
-    // Refresh charts if rendered
-    refreshChartsTheme();
 }
 
 function refreshChartsTheme() {
@@ -150,6 +140,14 @@ function initLoginGateway() {
             pwInput.type = 'password';
             eyeIcon.className = 'fa-solid fa-eye';
         }
+    });
+
+    // Theme Switcher ONLY for Main Three Login Page
+    const loginThemeBtn = document.getElementById('btn-login-theme-toggle');
+    loginThemeBtn?.addEventListener('click', () => {
+        const curTheme = document.documentElement.getAttribute('data-theme') || 'light';
+        const nextTheme = curTheme === 'light' ? 'dark' : 'light';
+        applyTheme(nextTheme, true);
     });
 
     // Login Form Submit Handler
@@ -237,6 +235,8 @@ function renderLoginQuickChips(role) {
 function enterPortalDashboard(role, user) {
     document.getElementById('login-screen').classList.remove('active');
     document.getElementById('portal-dashboard').style.display = 'flex';
+    // Ensure inner dashboards remain exclusively in vibrant light mode
+    document.documentElement.setAttribute('data-theme', 'light');
     setPortalRole(role, user.user_id || user.id, user);
 }
 
@@ -250,6 +250,9 @@ function initPortalLogout() {
         localStorage.removeItem('aditya-role');
         document.getElementById('portal-dashboard').style.display = 'none';
         document.getElementById('login-screen').classList.add('active');
+        // Restore login theme preference on main three login screen
+        const savedLoginTheme = localStorage.getItem('aditya-login-theme') || 'light';
+        applyTheme(savedLoginTheme, false);
         showToast('Signed out of university portal', 'info');
     };
 

@@ -35,15 +35,20 @@
         <div class="login-ambient-orb orb-2"></div>
         <div class="login-ambient-orb orb-3"></div>
 
+        <!-- Theme Toggle ONLY on Main Three Login Page -->
+        <div class="login-theme-corner">
+            <button type="button" class="btn-login-theme-toggle" id="btn-login-theme-toggle" title="Switch Theme (Light / Dark)">
+                <i class="fa-solid fa-moon" id="login-theme-icon"></i>
+                <span id="login-theme-label">Dark Mode</span>
+            </button>
+        </div>
+
         <div class="login-card-container">
-            <!-- University Official Branding Header -->
+            <!-- University Official Branding Header (Only Logo on Opening Page) -->
             <div class="login-branding-header">
                 <div class="login-logo-hero-container">
                     <img src="/static/images/aditya_logo.png" alt="Aditya University Logo" class="login-university-logo">
                 </div>
-                <h2 class="login-portal-title"><span style="color:#0f2b5c;">ADITYA</span> <span style="color:#ea580c;">UNIVERSITY</span></h2>
-                <p class="login-subtitle">STUDENT PERFORMANCE ANALYTICS & ACADEMIC ERP GATEWAY</p>
-                <div class="login-badge-dept">Department of Computer Science & Engineering • DAE Project</div>
             </div>
 
             <!-- Role Selector Tabs -->
@@ -118,7 +123,10 @@
                         <div class="sidebar-header">
                 <div class="sidebar-official-brand">
                     <img src="/static/images/aditya_logo.png" alt="Aditya University" class="sidebar-brand-img">
-                    <span class="sidebar-portal-badge">PORTAL</span>
+                    <div class="sidebar-brand-text">
+                        <span class="brand-name" style="font-weight:800; font-size:14.5px; letter-spacing:0.5px; display:inline-block;"><span style="color:#0f2b5c;">ADITYA</span> <span style="color:#ea580c;">UNIVERSITY</span></span>
+                        <span class="sidebar-portal-badge" style="margin-left:5px;">PORTAL</span>
+                    </div>
                 </div>
             </div>
 
@@ -152,11 +160,11 @@
                     <button class="mobile-menu-btn" id="btn-mobile-menu-toggle" aria-label="Toggle Navigation">
                         <i class="fa-solid fa-bars"></i>
                     </button>
-                                        <div class="portal-title-tag" id="top-portal-title-tag">
+                    <div class="portal-title-tag" id="top-portal-title-tag">
                         <span class="portal-indicator-dot"></span>
                         <div class="nav-official-brand">
                             <img src="/static/images/aditya_logo.png" alt="Aditya University" class="nav-brand-img">
-                            <span class="nav-portal-badge">PORTAL</span>
+                            <span class="nav-brand-title" style="font-size:15px; font-weight:800; letter-spacing:0.5px; white-space:nowrap;"><span style="color:#0f2b5c;">ADITYA</span> <span style="color:#ea580c;">UNIVERSITY</span> <span style="color:#1e3a8a; font-weight:700;">PORTAL</span></span>
                         </div>
                         <span class="nav-brand-pipe" style="color:#cbd5e1; margin:0 8px;">|</span>
                         <strong id="top-portal-heading">🎓 STUDENT PORTAL</strong> &nbsp;|&nbsp;

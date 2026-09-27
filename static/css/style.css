@@ -1452,7 +1452,48 @@ body {
     to { opacity: 1; transform: scale(1) translateY(0); }
 }
 
-/* Prominent Crystal-Clear Logo Presentation */
+/* Theme Toggle ONLY on Main Three Login Page */
+.login-theme-corner {
+    position: absolute;
+    top: 22px;
+    right: 26px;
+    z-index: 100;
+}
+.btn-login-theme-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(226, 232, 240, 0.95);
+    color: #0f2b5c;
+    font-size: 12.5px;
+    font-weight: 700;
+    cursor: pointer;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 4px 14px rgba(15, 23, 42, 0.08);
+    transition: all 0.22s ease;
+}
+.btn-login-theme-toggle:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(15, 23, 42, 0.14);
+    border-color: #3b82f6;
+    color: #ea580c;
+}
+[data-theme="dark"] .btn-login-theme-toggle {
+    background: rgba(15, 23, 42, 0.85);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    color: #f8fafc;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.45);
+}
+[data-theme="dark"] .btn-login-theme-toggle:hover {
+    border-color: #f59e0b;
+    color: #f59e0b;
+}
+
+/* Prominent Crystal-Clear Logo Presentation (Only Logo on Opening Page) */
 .login-branding-header,
 .login-logo-hero-wrap {
     text-align: center;
@@ -1468,17 +1509,17 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin-bottom: 12px;
+    margin-bottom: 0;
 }
 .login-university-logo,
 .login-main-logo {
-    height: 84px;
-    width: 84px;
-    max-width: 90px;
+    height: 96px;
+    width: 96px;
+    max-width: 104px;
     object-fit: contain;
     display: block;
     margin: 0 auto;
-    filter: drop-shadow(0 6px 16px rgba(15, 43, 92, 0.15));
+    filter: drop-shadow(0 8px 20px rgba(15, 43, 92, 0.18));
     transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
 .login-university-logo:hover,
