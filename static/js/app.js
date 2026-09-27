@@ -59,15 +59,15 @@ document.addEventListener('DOMContentLoaded', () => {
     loadAcademicReport();
 });
 
-// Theme Switcher (Available ONLY on Main Three Login Page)
+// Theme Switcher (Toggled from Main Three Login Page, applies globally)
 function initTheme() {
-    const savedLoginTheme = localStorage.getItem('aditya-login-theme') || 'light';
-    applyTheme(savedLoginTheme, false);
+    const savedTheme = localStorage.getItem('aditya-theme') || 'light';
+    applyTheme(savedTheme, false);
 }
 
 function applyTheme(theme, showNotice = true) {
     document.documentElement.setAttribute('data-theme', theme);
-    localStorage.setItem('aditya-login-theme', theme);
+    localStorage.setItem('aditya-theme', theme);
 
     // Update Login Screen Theme Toggle Button
     const loginIcon = document.getElementById('login-theme-icon');
@@ -76,8 +76,10 @@ function applyTheme(theme, showNotice = true) {
     if (loginLabel) loginLabel.innerText = theme === 'light' ? 'Dark Mode' : 'Light Mode';
 
     if (showNotice) {
-        showToast(`Login screen switched to ${theme.toUpperCase()} theme`, 'info');
+        showToast(`Theme switched to ${theme.toUpperCase()} Mode`, 'info');
     }
+
+    refreshChartsTheme();
 }
 
 function refreshChartsTheme() {
@@ -235,8 +237,9 @@ function renderLoginQuickChips(role) {
 function enterPortalDashboard(role, user) {
     document.getElementById('login-screen').classList.remove('active');
     document.getElementById('portal-dashboard').style.display = 'flex';
-    // Ensure inner dashboards remain exclusively in vibrant light mode
-    document.documentElement.setAttribute('data-theme', 'light');
+    // Retain whatever theme was active on the main login screen (Dark or Light)
+    const currentTheme = localStorage.getItem('aditya-theme') || document.documentElement.getAttribute('data-theme') || 'light';
+    applyTheme(currentTheme, false);
     setPortalRole(role, user.user_id || user.id, user);
 }
 
@@ -250,9 +253,8 @@ function initPortalLogout() {
         localStorage.removeItem('aditya-role');
         document.getElementById('portal-dashboard').style.display = 'none';
         document.getElementById('login-screen').classList.add('active');
-        // Restore login theme preference on main three login screen
-        const savedLoginTheme = localStorage.getItem('aditya-login-theme') || 'light';
-        applyTheme(savedLoginTheme, false);
+        const currentTheme = localStorage.getItem('aditya-theme') || 'light';
+        applyTheme(currentTheme, false);
         showToast('Signed out of university portal', 'info');
     };
 
@@ -2833,10 +2835,13 @@ function printOfficialTranscript() {
         <html><head><title>Consolidated Academic Transcript - ${p.name} (${p.roll_number})</title>
         <style>body{font-family:'Segoe UI',sans-serif; padding:30px; color:#0f172a; max-width:900px; margin:0 auto;}</style>
         </head><body>
-        <div style="text-align:center; border-bottom:2px solid #1e3a8a; padding-bottom:12px;">
-            <h1 style="color:#1e3a8a; margin:0; font-size:24px;">ADITYA UNIVERSITY</h1>
-            <p style="margin:2px 0; font-size:13px; font-weight:bold; color:#475569;">OFFICE OF CONTROLLER OF EXAMINATIONS</p>
-            <h3 style="margin:6px 0 0 0; color:#0f172a; font-size:16px;">CONSOLIDATED CUMULATIVE GRADE TRANSCRIPT</h3>
+        <div style="text-align:center; border-bottom:2px solid #1e3a8a; padding-bottom:14px;">
+            <div style="display:flex; justify-content:center; align-items:center; margin-bottom:8px;">
+                <img src="/static/images/aditya_logo.png" style="height:70px; width:70px; object-fit:contain;" alt="Aditya University Seal">
+            </div>
+            <h1 style="margin:0; font-size:24px; font-weight:800; letter-spacing:1px; font-family:'Segoe UI', sans-serif;"><span style="color:#0f2b5c;">ADITYA</span> <span style="color:#ea580c;">UNIVERSITY</span></h1>
+            <p style="margin:3px 0 0 0; font-size:13px; font-weight:bold; color:#475569; letter-spacing:0.5px;">OFFICE OF THE CONTROLLER OF EXAMINATIONS</p>
+            <h3 style="margin:6px 0 0 0; color:#1e3a8a; font-size:16px; font-weight:700; letter-spacing:0.5px;">CONSOLIDATED CUMULATIVE GRADE TRANSCRIPT</h3>
         </div>
 
         <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-top:16px; font-size:12.5px; background:#f8fafc; padding:12px; border-radius:6px; border:1px solid #e2e8f0;">
@@ -2852,10 +2857,19 @@ function printOfficialTranscript() {
 
         ${allSemTables}
 
-        <div style="display:flex; justify-content:space-between; margin-top:40px; font-size:12px;">
-            <div><br><strong>Verified by Dean Academic Audit</strong></div>
-            <div style="text-align:center;"><br><strong>Official Seal of University</strong></div>
-            <div style="text-align:right;"><br><strong>Controller of Examinations</strong></div>
+        <div style="display:flex; justify-content:space-between; align-items:flex-end; margin-top:40px; font-size:12px;">
+            <div>
+                <div style="height:36px; border-bottom:1px solid #94a3b8; width:170px; margin-bottom:4px;"></div>
+                <strong>Verified by Dean Academic Audit</strong>
+            </div>
+            <div style="text-align:center;">
+                <img src="/static/images/aditya_logo.png" style="height:48px; width:48px; object-fit:contain; opacity:0.85;" alt="Seal"><br>
+                <strong style="font-size:11px; color:#64748b;">Official Seal of University</strong>
+            </div>
+            <div style="text-align:right;">
+                <div style="height:36px; border-bottom:1px solid #94a3b8; width:170px; margin-bottom:4px; display:inline-block;"></div><br>
+                <strong>Controller of Examinations</strong>
+            </div>
         </div>
         <script>window.print();</script>
         </body></html>
