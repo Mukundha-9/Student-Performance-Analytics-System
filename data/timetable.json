@@ -1,0 +1,350 @@
+{
+  "Monday": [
+    {
+      "period": 1,
+      "time": "09:00 AM - 09:50 AM",
+      "subject": "Data_Structures",
+      "subject_name": "Data Structures",
+      "faculty": "Dr. K. Venkatesh Rao",
+      "room": "Room 302 (Ramanujan Block)"
+    },
+    {
+      "period": 2,
+      "time": "09:50 AM - 10:40 AM",
+      "subject": "Physics",
+      "subject_name": "Physics",
+      "faculty": "Dr. S. R. Murthy",
+      "room": "Physics Lab 1"
+    },
+    {
+      "period": 3,
+      "time": "10:50 AM - 11:40 AM",
+      "subject": "English",
+      "subject_name": "English",
+      "faculty": "Dr. Meenakshi Sundaram",
+      "room": "Language Lab 2"
+    },
+    {
+      "period": 4,
+      "time": "11:40 AM - 12:30 PM",
+      "subject": "Mathematics",
+      "subject_name": "Mathematics",
+      "faculty": "Prof. V. Priya",
+      "room": "Room 302 (Ramanujan Block)"
+    },
+    {
+      "period": 5,
+      "time": "01:30 PM - 02:20 PM",
+      "subject": "Project Lab Session",
+      "subject_name": "Project Lab Session",
+      "faculty": "Prof. V. Priya",
+      "room": "Innovation Hub"
+    },
+    {
+      "period": 6,
+      "time": "02:20 PM - 03:10 PM",
+      "subject": "Python_Programming",
+      "subject_name": "Python Programming",
+      "faculty": "Dr. A. K. Sharma",
+      "room": "Lab 3 (Turing Block)"
+    },
+    {
+      "period": 7,
+      "time": "03:10 PM - 04:00 PM",
+      "subject": "Technical Seminar & Mentoring",
+      "subject_name": "Technical Seminar & Mentoring",
+      "faculty": "Dr. A. K. Sharma",
+      "room": "Seminar Hall 1"
+    }
+  ],
+  "Tuesday": [
+    {
+      "period": 1,
+      "time": "09:00 AM - 09:50 AM",
+      "subject": "Technical Seminar & Mentoring",
+      "subject_name": "Technical Seminar & Mentoring",
+      "faculty": "Dr. A. K. Sharma",
+      "room": "Seminar Hall 1"
+    },
+    {
+      "period": 2,
+      "time": "09:50 AM - 10:40 AM",
+      "subject": "English",
+      "subject_name": "English",
+      "faculty": "Dr. Meenakshi Sundaram",
+      "room": "Language Lab 2"
+    },
+    {
+      "period": 3,
+      "time": "10:50 AM - 11:40 AM",
+      "subject": "Data_Structures",
+      "subject_name": "Data Structures",
+      "faculty": "Dr. K. Venkatesh Rao",
+      "room": "Room 302 (Ramanujan Block)"
+    },
+    {
+      "period": 4,
+      "time": "11:40 AM - 12:30 PM",
+      "subject": "Project Lab Session",
+      "subject_name": "Project Lab Session",
+      "faculty": "Prof. V. Priya",
+      "room": "Innovation Hub"
+    },
+    {
+      "period": 5,
+      "time": "01:30 PM - 02:20 PM",
+      "subject": "Physics",
+      "subject_name": "Physics",
+      "faculty": "Dr. S. R. Murthy",
+      "room": "Physics Lab 1"
+    },
+    {
+      "period": 6,
+      "time": "02:20 PM - 03:10 PM",
+      "subject": "Mathematics",
+      "subject_name": "Mathematics",
+      "faculty": "Prof. V. Priya",
+      "room": "Room 302 (Ramanujan Block)"
+    },
+    {
+      "period": 7,
+      "time": "03:10 PM - 04:00 PM",
+      "subject": "Python_Programming",
+      "subject_name": "Python Programming",
+      "faculty": "Dr. A. K. Sharma",
+      "room": "Lab 3 (Turing Block)"
+    }
+  ],
+  "Wednesday": [
+    {
+      "period": 1,
+      "time": "09:00 AM - 09:50 AM",
+      "subject": "Technical Seminar & Mentoring",
+      "subject_name": "Technical Seminar & Mentoring",
+      "faculty": "Dr. A. K. Sharma",
+      "room": "Seminar Hall 1"
+    },
+    {
+      "period": 2,
+      "time": "09:50 AM - 10:40 AM",
+      "subject": "Python_Programming",
+      "subject_name": "Python Programming",
+      "faculty": "Dr. A. K. Sharma",
+      "room": "Lab 3 (Turing Block)"
+    },
+    {
+      "period": 3,
+      "time": "10:50 AM - 11:40 AM",
+      "subject": "Data_Structures",
+      "subject_name": "Data Structures",
+      "faculty": "Dr. K. Venkatesh Rao",
+      "room": "Room 302 (Ramanujan Block)"
+    },
+    {
+      "period": 4,
+      "time": "11:40 AM - 12:30 PM",
+      "subject": "English",
+      "subject_name": "English",
+      "faculty": "Dr. Meenakshi Sundaram",
+      "room": "Language Lab 2"
+    },
+    {
+      "period": 5,
+      "time": "01:30 PM - 02:20 PM",
+      "subject": "Mathematics",
+      "subject_name": "Mathematics",
+      "faculty": "Prof. V. Priya",
+      "room": "Room 302 (Ramanujan Block)"
+    },
+    {
+      "period": 6,
+      "time": "02:20 PM - 03:10 PM",
+      "subject": "Project Lab Session",
+      "subject_name": "Project Lab Session",
+      "faculty": "Prof. V. Priya",
+      "room": "Innovation Hub"
+    },
+    {
+      "period": 7,
+      "time": "03:10 PM - 04:00 PM",
+      "subject": "Physics",
+      "subject_name": "Physics",
+      "faculty": "Dr. S. R. Murthy",
+      "room": "Physics Lab 1"
+    }
+  ],
+  "Thursday": [
+    {
+      "period": 1,
+      "time": "09:00 AM - 09:50 AM",
+      "subject": "Technical Seminar & Mentoring",
+      "subject_name": "Technical Seminar & Mentoring",
+      "faculty": "Dr. A. K. Sharma",
+      "room": "Seminar Hall 1"
+    },
+    {
+      "period": 2,
+      "time": "09:50 AM - 10:40 AM",
+      "subject": "Data_Structures",
+      "subject_name": "Data Structures",
+      "faculty": "Dr. K. Venkatesh Rao",
+      "room": "Room 302 (Ramanujan Block)"
+    },
+    {
+      "period": 3,
+      "time": "10:50 AM - 11:40 AM",
+      "subject": "Mathematics",
+      "subject_name": "Mathematics",
+      "faculty": "Prof. V. Priya",
+      "room": "Room 302 (Ramanujan Block)"
+    },
+    {
+      "period": 4,
+      "time": "11:40 AM - 12:30 PM",
+      "subject": "Physics",
+      "subject_name": "Physics",
+      "faculty": "Dr. S. R. Murthy",
+      "room": "Physics Lab 1"
+    },
+    {
+      "period": 5,
+      "time": "01:30 PM - 02:20 PM",
+      "subject": "Python_Programming",
+      "subject_name": "Python Programming",
+      "faculty": "Dr. A. K. Sharma",
+      "room": "Lab 3 (Turing Block)"
+    },
+    {
+      "period": 6,
+      "time": "02:20 PM - 03:10 PM",
+      "subject": "English",
+      "subject_name": "English",
+      "faculty": "Dr. Meenakshi Sundaram",
+      "room": "Language Lab 2"
+    },
+    {
+      "period": 7,
+      "time": "03:10 PM - 04:00 PM",
+      "subject": "Project Lab Session",
+      "subject_name": "Project Lab Session",
+      "faculty": "Prof. V. Priya",
+      "room": "Innovation Hub"
+    }
+  ],
+  "Friday": [
+    {
+      "period": 1,
+      "time": "09:00 AM - 09:50 AM",
+      "subject": "Data_Structures",
+      "subject_name": "Data Structures",
+      "faculty": "Dr. K. Venkatesh Rao",
+      "room": "Room 302 (Ramanujan Block)"
+    },
+    {
+      "period": 2,
+      "time": "09:50 AM - 10:40 AM",
+      "subject": "Physics",
+      "subject_name": "Physics",
+      "faculty": "Dr. S. R. Murthy",
+      "room": "Physics Lab 1"
+    },
+    {
+      "period": 3,
+      "time": "10:50 AM - 11:40 AM",
+      "subject": "English",
+      "subject_name": "English",
+      "faculty": "Dr. Meenakshi Sundaram",
+      "room": "Language Lab 2"
+    },
+    {
+      "period": 4,
+      "time": "11:40 AM - 12:30 PM",
+      "subject": "Mathematics",
+      "subject_name": "Mathematics",
+      "faculty": "Prof. V. Priya",
+      "room": "Room 302 (Ramanujan Block)"
+    },
+    {
+      "period": 5,
+      "time": "01:30 PM - 02:20 PM",
+      "subject": "Project Lab Session",
+      "subject_name": "Project Lab Session",
+      "faculty": "Prof. V. Priya",
+      "room": "Innovation Hub"
+    },
+    {
+      "period": 6,
+      "time": "02:20 PM - 03:10 PM",
+      "subject": "Python_Programming",
+      "subject_name": "Python Programming",
+      "faculty": "Dr. A. K. Sharma",
+      "room": "Lab 3 (Turing Block)"
+    },
+    {
+      "period": 7,
+      "time": "03:10 PM - 04:00 PM",
+      "subject": "Technical Seminar & Mentoring",
+      "subject_name": "Technical Seminar & Mentoring",
+      "faculty": "Dr. A. K. Sharma",
+      "room": "Seminar Hall 1"
+    }
+  ],
+  "Saturday": [
+    {
+      "period": 1,
+      "time": "09:00 AM - 09:50 AM",
+      "subject": "Technical Seminar & Mentoring",
+      "subject_name": "Technical Seminar & Mentoring",
+      "faculty": "Dr. A. K. Sharma",
+      "room": "Seminar Hall 1"
+    },
+    {
+      "period": 2,
+      "time": "09:50 AM - 10:40 AM",
+      "subject": "Data_Structures",
+      "subject_name": "Data Structures",
+      "faculty": "Dr. K. Venkatesh Rao",
+      "room": "Room 302 (Ramanujan Block)"
+    },
+    {
+      "period": 3,
+      "time": "10:50 AM - 11:40 AM",
+      "subject": "Mathematics",
+      "subject_name": "Mathematics",
+      "faculty": "Prof. V. Priya",
+      "room": "Room 302 (Ramanujan Block)"
+    },
+    {
+      "period": 4,
+      "time": "11:40 AM - 12:30 PM",
+      "subject": "Physics",
+      "subject_name": "Physics",
+      "faculty": "Dr. S. R. Murthy",
+      "room": "Physics Lab 1"
+    },
+    {
+      "period": 5,
+      "time": "01:30 PM - 02:20 PM",
+      "subject": "Python_Programming",
+      "subject_name": "Python Programming",
+      "faculty": "Dr. A. K. Sharma",
+      "room": "Lab 3 (Turing Block)"
+    },
+    {
+      "period": 6,
+      "time": "02:20 PM - 03:10 PM",
+      "subject": "English",
+      "subject_name": "English",
+      "faculty": "Dr. Meenakshi Sundaram",
+      "room": "Language Lab 2"
+    },
+    {
+      "period": 7,
+      "time": "03:10 PM - 04:00 PM",
+      "subject": "Project Lab Session",
+      "subject_name": "Project Lab Session",
+      "faculty": "Prof. V. Priya",
+      "room": "Innovation Hub"
+    }
+  ]
+}

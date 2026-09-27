@@ -1,0 +1,40 @@
+[
+  {
+    "meeting_id": "MTG-REQ-595",
+    "faculty_id": "50101",
+    "student_id": "25B11CS380",
+    "student_name": "KALYANAM MUKUNDHA",
+    "date": "2026-09-04",
+    "time_slot": "03:30 PM - 04:00 PM",
+    "purpose": "Academic Difficulty & Study Guidance",
+    "venue": "Ramanujan Block - Room 402 (Faculty Cabin)",
+    "status": "Confirmed (Accepted)",
+    "requested_by": "Student",
+    "notes": "Accepted by Dr. Sharma. Bring your lab workbook.",
+    "requested_at": "2026-08-28 21:02"
+  },
+  {
+    "meeting_id": "MTG-2026-001",
+    "faculty_id": "50101",
+    "student_id": "25B11CS380",
+    "student_name": "Kalyanam Mukundha",
+    "date": "2026-09-02",
+    "time_slot": "03:30 PM - 04:00 PM",
+    "purpose": "DAE Capstone Project Architecture & Semester Progress Review",
+    "venue": "Ramanujan Block - Room 402 (Faculty Cabin)",
+    "status": "Confirmed (Locked)",
+    "notes": "Review backend dataset generation and role authorization modules."
+  },
+  {
+    "meeting_id": "MTG-2026-002",
+    "faculty_id": "50101",
+    "student_id": "25B11CS932",
+    "student_name": "Tadicherla Sai Abhiram",
+    "date": "2026-09-03",
+    "time_slot": "04:00 PM - 04:30 PM",
+    "purpose": "NumPy Mathematical Statistics & Vectorization Review",
+    "venue": "Ramanujan Block - Room 402",
+    "status": "Confirmed (Locked)",
+    "notes": "Validate covariance, Pearson correlation and quartile computations."
+  }
+]

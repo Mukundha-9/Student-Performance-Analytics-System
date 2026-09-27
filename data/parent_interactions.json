@@ -1,0 +1,41 @@
+[
+  {
+    "call_id": "PTM-2026-01",
+    "faculty_id": "50101",
+    "student_id": "25B11CS380",
+    "student_name": "Kalyanam Mukundha",
+    "parent_name": "K. Venkata Rao (Father)",
+    "parent_phone": "+91 98480 12345",
+    "scheduled_slot": "Slot 1: Tuesday (04:00 PM - 04:20 PM)",
+    "call_date": "2026-08-25",
+    "status": "Completed",
+    "discussion_points": "Appreciated 93.1% academic score and team lead role in DAE project. Confirmed 98% attendance eligibility.",
+    "parent_feedback": "Parent expressed high satisfaction with university academic progress."
+  },
+  {
+    "call_id": "PTM-2026-02",
+    "faculty_id": "50101",
+    "student_id": "25B11CS490",
+    "student_name": "Kovvuri Sameer Reddy",
+    "parent_name": "K. Satyanarayana (Father)",
+    "parent_phone": "+91 98480 54321",
+    "scheduled_slot": "Slot 2: Friday (04:30 PM - 04:50 PM)",
+    "call_date": "2026-08-28",
+    "status": "Completed",
+    "discussion_points": "Discussed Data Structures tutorial progress and consistent attendance maintenance.",
+    "parent_feedback": "Father confirmed home study schedule of 3 hours daily."
+  },
+  {
+    "call_id": "PTM-2026-03",
+    "faculty_id": "50101",
+    "student_id": "25B11CS891",
+    "student_name": "Shaik Sajid",
+    "parent_name": "S. Ibrahim (Father)",
+    "parent_phone": "+91 98480 98765",
+    "scheduled_slot": "Slot 3: Next Tuesday (04:00 PM - 04:20 PM)",
+    "call_date": "2026-09-01",
+    "status": "Scheduled (Upcoming)",
+    "discussion_points": "Scheduled to discuss UI visualization module and mid-term exam preparation.",
+    "parent_feedback": "Pending interaction."
+  }
+]

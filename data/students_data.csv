@@ -1,0 +1,502 @@
+Student_ID,Name,Gender,Branch,Semester,Attendance,Mathematics,Physics,Python_Programming,Data_Structures,English,Total_Marks,Percentage,Grade,Grade_Point,Status
+25B11CS380,KALYANAM MUKUNDHA,Male,Computer Science & Engineering,Semester 4,94.5,93.2,91.7,93.6,95.8,91.4,465.7,93.14,A+,10.0,Pass
+25B11CS932,TADICHERLA SAI ABHIRAM,Male,Computer Science & Engineering,Semester 4,96.0,94.4,98.9,96.9,93.8,96.4,480.4,96.08,A+,10.0,Pass
+25B11CS490,KOVVURI SAMEER REDDY,Male,Computer Science & Engineering,Semester 4,91.5,88.8,88.8,90.6,85.2,85.7,439.1,87.82,A,9.0,Pass
+25B11CS891,SHAIK SAJID,Male,Computer Science & Engineering,Semester 4,93.0,90.1,89.0,92.3,89.2,88.0,448.6,89.72,A,9.0,Pass
+25B11EE0101,Nikhil Bose,Male,Electrical & Electronics,Semester 4,68.0,79.5,80.3,91.9,68.5,85.7,405.9,81.18,A,9.0,Pass
+25B11EC0101,Manoj Chatterjee,Male,Electronics & Communication,Semester 1,93.0,93.1,84.2,99.5,84.3,99.5,460.6,92.12,A+,10.0,Pass
+25B11CE0101,Manoj Sharma,Male,Civil Engineering,Semester 4,91.5,72.1,69.0,85.9,94.3,92.9,414.2,82.84,A,9.0,Pass
+25B11IT0101,Yamini Yarlagadda,Female,Information Technology,Semester 2,70.8,42.5,47.0,54.7,62.5,46.3,253.0,50.6,D,6.0,Pass
+25B11ME0101,Radhika Gollapudi,Female,Mechanical Engineering,Semester 3,78.5,76.1,50.6,71.9,72.2,51.6,322.4,64.48,C,7.0,Pass
+25B11EC0102,Sameer Pandey,Male,Electronics & Communication,Semester 1,81.4,58.6,56.1,77.9,76.2,65.7,334.5,66.9,C,7.0,Pass
+25B11IT0102,Venkatesh Jain,Male,Information Technology,Semester 1,84.6,63.7,61.8,94.2,78.9,70.6,369.2,73.84,B,8.0,Pass
+25B11CS0101,Ramesh Choudhary,Male,Computer Science & Engineering,Semester 8,82.5,61.0,64.5,72.2,71.2,87.5,356.4,71.28,B,8.0,Pass
+25B11EE0102,Ritu Nair,Female,Electrical & Electronics,Semester 2,59.5,42.8,27.1,32.1,36.7,45.4,184.1,36.82,F,0.0,Fail
+25B11CE0102,Manoj Chatterjee,Male,Civil Engineering,Semester 5,67.8,71.0,79.9,62.5,59.3,76.9,349.6,69.92,C,7.0,Pass
+25B11EC0103,Advaith Tadicherla,Male,Electronics & Communication,Semester 8,60.8,65.2,63.9,76.1,68.4,73.7,347.3,69.46,C,7.0,Pass
+25B11EE0103,Swathi Bandaru,Female,Electrical & Electronics,Semester 5,89.1,99.5,99.5,99.5,96.6,99.5,494.6,98.92,A+,10.0,Pass
+25B11EE0104,Manya Tadicherla,Female,Electrical & Electronics,Semester 5,72.2,76.2,74.0,77.3,75.0,87.8,390.3,78.06,B,8.0,Pass
+25B11CS0102,Lavanya Nallamilli,Female,Computer Science & Engineering,Semester 1,62.6,42.6,40.8,57.1,35.2,42.6,218.3,43.66,F,0.0,Fail
+25B11IT0103,Ganesh Dandu,Male,Information Technology,Semester 7,87.0,87.5,64.1,85.9,83.3,85.2,406.0,81.2,A,9.0,Pass
+25B11CS0103,Nikhil Mishra,Male,Computer Science & Engineering,Semester 4,75.6,64.4,77.6,63.8,67.6,81.0,354.4,70.88,B,8.0,Pass
+25B11CE0103,Deepak Mehta,Male,Civil Engineering,Semester 4,78.9,45.1,46.8,29.0,37.1,33.9,191.9,38.38,F,0.0,Fail
+25B11CE0104,Shaurya Penmatsa,Male,Civil Engineering,Semester 5,78.4,79.1,74.9,96.0,88.9,94.5,433.4,86.68,A,9.0,Pass
+25B11CE0105,Ramesh Bandaru,Male,Civil Engineering,Semester 3,58.3,54.7,36.7,43.1,51.8,53.8,240.1,48.02,F,0.0,Fail
+25B11EC0104,Aarohi Chopra,Female,Electronics & Communication,Semester 7,88.8,99.5,99.5,99.5,99.5,99.5,497.5,99.5,A+,10.0,Pass
+25B11EE0105,Neha Deshmukh,Female,Electrical & Electronics,Semester 5,82.9,84.0,93.8,86.6,99.5,94.1,458.0,91.6,A+,10.0,Pass
+25B11IT0104,Arjun Gudipati,Male,Information Technology,Semester 6,63.3,58.1,72.2,77.7,73.0,70.6,351.6,70.32,B,8.0,Pass
+25B11IT0105,Varun Kovvuri,Male,Information Technology,Semester 8,84.4,81.1,82.0,82.3,79.8,77.4,402.6,80.52,A,9.0,Pass
+25B11ME0102,Siddharth Chatterjee,Male,Mechanical Engineering,Semester 1,85.7,71.5,57.3,76.5,82.6,73.9,361.8,72.36,B,8.0,Pass
+25B11EC0105,Bhuvan Agarwal,Male,Electronics & Communication,Semester 4,81.3,56.8,67.4,70.8,54.4,70.3,319.7,63.94,C,7.0,Pass
+25B11CE0106,Tejaswini Pandey,Female,Civil Engineering,Semester 3,82.1,83.5,86.0,95.2,81.6,83.8,430.1,86.02,A,9.0,Pass
+25B11EC0106,Aadhya Iyer,Female,Electronics & Communication,Semester 4,73.5,84.0,88.3,88.6,96.0,95.8,452.7,90.54,A+,10.0,Pass
+25B11EC0107,Manasa Rao,Female,Electronics & Communication,Semester 6,99.5,73.2,72.3,87.1,83.5,81.3,397.4,79.48,B,8.0,Pass
+25B11EE0106,Swathi Bhatia,Female,Electrical & Electronics,Semester 4,99.5,94.1,92.1,99.5,88.3,99.5,473.5,94.7,A+,10.0,Pass
+25B11IT0106,Manasa Malhotra,Female,Information Technology,Semester 5,60.5,77.3,53.3,69.1,59.8,94.3,353.8,70.76,B,8.0,Pass
+25B11CE0107,Geethika Kulkarni,Female,Civil Engineering,Semester 2,93.4,80.2,86.4,93.8,71.3,99.5,431.2,86.24,A,9.0,Pass
+25B11CS0104,Swathi Patel,Female,Computer Science & Engineering,Semester 3,97.1,89.0,88.9,94.7,81.9,68.1,422.6,84.52,A,9.0,Pass
+25B11CE0108,Ayaan Pandey,Male,Civil Engineering,Semester 5,79.2,57.9,51.0,77.0,75.7,60.8,322.4,64.48,C,7.0,Pass
+25B11CS0105,Khushi Kovvuri,Female,Computer Science & Engineering,Semester 3,83.8,48.1,73.1,78.6,51.6,63.6,315.0,63.0,C,7.0,Pass
+25B11EE0107,Karthik Choudhary,Male,Electrical & Electronics,Semester 2,55.4,53.7,64.0,65.7,46.2,55.4,285.0,57.0,D,6.0,Pass
+25B11ME0103,Sara Chatterjee,Female,Mechanical Engineering,Semester 4,86.7,88.5,72.9,81.5,82.2,82.0,407.1,81.42,A,9.0,Pass
+25B11ME0104,Prisha Chopra,Female,Mechanical Engineering,Semester 3,76.6,60.7,53.1,64.4,53.7,65.7,297.6,59.52,D,6.0,Pass
+25B11CS0106,Deepak Jain,Male,Computer Science & Engineering,Semester 3,85.9,93.1,95.7,74.9,99.5,99.5,462.7,92.54,A+,10.0,Pass
+25B11ME0105,Aditya Sharma,Male,Mechanical Engineering,Semester 7,69.2,75.0,65.5,87.6,73.5,85.5,387.1,77.42,B,8.0,Pass
+25B11EC0108,Diya Kovvuri,Female,Electronics & Communication,Semester 3,69.5,78.7,68.5,70.5,60.8,70.3,348.8,69.76,C,7.0,Pass
+25B11CS0107,Ramesh Marella,Male,Computer Science & Engineering,Semester 6,82.7,92.0,97.3,84.6,84.2,82.1,440.2,88.04,A,9.0,Pass
+25B11CS0108,Advik Tadicherla,Male,Computer Science & Engineering,Semester 1,91.7,72.8,77.0,77.1,86.2,84.5,397.6,79.52,B,8.0,Pass
+25B11CE0109,Priya Sagi,Female,Civil Engineering,Semester 1,90.0,61.7,64.2,69.0,84.9,92.6,372.4,74.48,B,8.0,Pass
+25B11CE0110,Yamini Shaik,Female,Civil Engineering,Semester 3,99.5,54.6,64.7,67.4,87.0,88.1,361.8,72.36,B,8.0,Pass
+25B11EC0109,Gauri Rao,Female,Electronics & Communication,Semester 2,53.5,40.3,47.7,39.6,40.8,35.1,203.5,40.7,F,0.0,Fail
+25B11EC0110,Payal Malhotra,Female,Electronics & Communication,Semester 8,62.1,92.4,81.9,83.7,79.8,88.1,425.9,85.18,A,9.0,Pass
+25B11EE0108,Madhav Nallamilli,Male,Electrical & Electronics,Semester 3,77.5,74.0,77.8,81.7,70.1,77.2,380.8,76.16,B,8.0,Pass
+25B11EE0109,Isha Singh,Female,Electrical & Electronics,Semester 5,68.7,76.4,70.7,58.3,59.2,80.2,344.8,68.96,C,7.0,Pass
+25B11ME0106,Sneha Yadav,Female,Mechanical Engineering,Semester 2,78.9,60.4,70.6,88.8,71.9,77.2,368.9,73.78,B,8.0,Pass
+25B11EC0111,Sai Velagapudi,Male,Electronics & Communication,Semester 8,69.3,67.1,62.6,78.9,65.4,66.4,340.4,68.08,C,7.0,Pass
+25B11EE0110,Pooja Kumar,Female,Electrical & Electronics,Semester 5,95.0,87.1,90.1,99.5,81.6,99.5,457.8,91.56,A+,10.0,Pass
+25B11CS0109,Sanjay Chatterjee,Male,Computer Science & Engineering,Semester 2,76.9,47.4,59.8,64.3,65.6,66.8,303.9,60.78,C,7.0,Pass
+25B11EE0111,Tejaswini Choudhary,Female,Electrical & Electronics,Semester 4,77.6,48.6,46.0,56.1,62.5,47.7,260.9,52.18,D,6.0,Pass
+25B11CE0111,Anupama Banerjee,Female,Civil Engineering,Semester 7,82.2,57.3,50.1,73.9,59.9,70.9,312.1,62.42,C,7.0,Pass
+25B11CS0110,Lokesh Deshmukh,Male,Computer Science & Engineering,Semester 2,88.5,49.5,68.1,72.8,52.7,63.8,306.9,61.38,C,7.0,Pass
+25B11IT0107,Navya Agarwal,Female,Information Technology,Semester 2,94.9,88.0,90.0,82.9,75.4,99.5,435.8,87.16,A,9.0,Pass
+25B11CS0111,Sindhu Joshi,Female,Computer Science & Engineering,Semester 3,94.4,69.0,55.7,60.0,62.5,55.1,302.3,60.46,C,7.0,Pass
+25B11EC0112,Aanya Kanumuri,Female,Electronics & Communication,Semester 3,90.4,52.1,57.5,43.6,63.9,58.1,275.2,55.04,D,6.0,Pass
+25B11IT0108,Riya Reddy,Female,Information Technology,Semester 4,81.7,54.4,65.6,60.4,64.8,82.2,327.4,65.48,C,7.0,Pass
+25B11CS0112,Meera Kanumuri,Female,Computer Science & Engineering,Semester 8,76.8,90.6,74.6,90.6,97.9,96.7,450.4,90.08,A+,10.0,Pass
+25B11CE0112,Bhuvan Kumar,Male,Civil Engineering,Semester 4,71.5,64.0,69.1,78.0,74.8,67.4,353.3,70.66,B,8.0,Pass
+25B11EC0113,Pranathi Mehta,Female,Electronics & Communication,Semester 1,69.8,39.1,25.2,20.8,39.2,59.0,183.3,36.66,F,0.0,Fail
+25B11EE0112,Mohit Saxena,Male,Electrical & Electronics,Semester 6,83.5,71.2,75.9,77.1,85.7,87.3,397.2,79.44,B,8.0,Pass
+25B11ME0107,Deepika Verma,Female,Mechanical Engineering,Semester 6,87.7,68.9,77.1,74.2,77.3,83.5,381.0,76.2,B,8.0,Pass
+25B11EC0114,Deepak Penmatsa,Male,Electronics & Communication,Semester 1,71.8,99.5,89.6,99.5,99.5,99.5,487.6,97.52,A+,10.0,Pass
+25B11CE0113,Chaitanya Reddy,Male,Civil Engineering,Semester 2,84.7,51.2,51.4,47.5,58.2,53.1,261.4,52.28,D,6.0,Pass
+25B11CE0114,Kishore Tadicherla,Male,Civil Engineering,Semester 3,98.9,99.5,99.5,99.5,99.5,99.5,497.5,99.5,A+,10.0,Pass
+25B11ME0108,Lokesh Kumar,Male,Mechanical Engineering,Semester 1,76.9,71.5,72.9,87.1,81.1,67.8,380.4,76.08,B,8.0,Pass
+25B11ME0109,Chandana Chopra,Female,Mechanical Engineering,Semester 6,68.0,57.7,64.9,59.7,51.0,75.1,308.4,61.68,C,7.0,Pass
+25B11CE0115,Anjali Kulkarni,Female,Civil Engineering,Semester 5,76.7,39.3,53.9,68.3,49.9,68.3,279.7,55.94,F,0.0,Fail
+25B11CE0116,Atharv Shaik,Male,Civil Engineering,Semester 2,68.6,46.2,76.6,57.7,63.4,78.3,322.2,64.44,C,7.0,Pass
+25B11EE0113,Chaitanya Chatterjee,Male,Electrical & Electronics,Semester 1,70.1,81.7,80.9,85.0,85.1,89.5,422.2,84.44,A,9.0,Pass
+25B11EC0115,Lakshmi Agarwal,Female,Electronics & Communication,Semester 4,78.1,63.4,63.5,74.3,70.0,52.0,323.2,64.64,C,7.0,Pass
+25B11IT0109,Rahul Banerjee,Male,Information Technology,Semester 8,79.3,74.5,82.5,82.1,73.9,84.7,397.7,79.54,B,8.0,Pass
+25B11CS0113,Vihaan Patel,Male,Computer Science & Engineering,Semester 7,76.1,60.4,61.4,86.9,68.0,71.0,347.7,69.54,C,7.0,Pass
+25B11EE0114,Dileep Gupta,Male,Electrical & Electronics,Semester 2,86.9,75.7,72.8,95.4,88.6,99.5,432.0,86.4,A,9.0,Pass
+25B11EC0116,Krishna Marella,Male,Electronics & Communication,Semester 7,76.6,75.5,67.5,74.1,84.1,67.2,368.4,73.68,B,8.0,Pass
+25B11EC0117,Reyansh Ghosh,Male,Electronics & Communication,Semester 6,91.6,93.4,99.5,99.5,98.1,97.0,487.5,97.5,A+,10.0,Pass
+25B11CS0114,Tarun Nallamilli,Male,Computer Science & Engineering,Semester 1,90.8,38.4,43.0,53.9,47.4,52.4,235.1,47.02,F,0.0,Fail
+25B11CS0115,Harsh Bose,Male,Computer Science & Engineering,Semester 8,99.5,95.7,98.2,93.8,91.5,99.5,478.7,95.74,A+,10.0,Pass
+25B11IT0110,Manya Marella,Female,Information Technology,Semester 8,85.0,99.5,90.9,99.5,89.2,99.5,478.6,95.72,A+,10.0,Pass
+25B11CE0117,Pavan Kulkarni,Male,Civil Engineering,Semester 7,84.3,56.2,47.1,47.2,64.6,69.8,284.9,56.98,D,6.0,Pass
+25B11EE0115,Deepak Gupta,Male,Electrical & Electronics,Semester 7,82.5,58.9,66.7,67.1,52.4,72.0,317.1,63.42,C,7.0,Pass
+25B11EE0116,Priya Bhatia,Female,Electrical & Electronics,Semester 1,89.7,61.1,66.9,78.3,76.8,66.8,349.9,69.98,C,7.0,Pass
+25B11IT0111,Krishna Banerjee,Male,Information Technology,Semester 7,99.0,99.5,80.7,99.5,99.5,99.5,478.7,95.74,A+,10.0,Pass
+25B11IT0112,Advaith Saxena,Male,Information Technology,Semester 6,84.3,94.1,94.2,99.5,89.3,99.5,476.6,95.32,A+,10.0,Pass
+25B11EE0117,Vanya Rao,Female,Electrical & Electronics,Semester 5,77.0,64.3,58.0,55.6,53.3,57.7,288.9,57.78,D,6.0,Pass
+25B11CE0118,Aarohi Sharma,Female,Civil Engineering,Semester 4,75.6,81.0,95.0,90.8,83.7,90.0,440.5,88.1,A,9.0,Pass
+25B11ME0110,Kishore Das,Male,Mechanical Engineering,Semester 4,80.3,74.3,72.2,58.8,66.3,77.0,348.6,69.72,C,7.0,Pass
+25B11EC0118,Advaith Yadav,Male,Electronics & Communication,Semester 6,90.7,84.6,67.6,99.1,94.0,94.1,439.4,87.88,A,9.0,Pass
+25B11CS0116,Kabir Agarwal,Male,Computer Science & Engineering,Semester 2,73.5,68.6,67.4,61.9,73.9,74.6,346.4,69.28,C,7.0,Pass
+25B11ME0111,Geethika Ghosh,Female,Mechanical Engineering,Semester 8,67.5,62.3,70.3,64.9,77.6,91.3,366.4,73.28,B,8.0,Pass
+25B11IT0113,Karthik Shaik,Male,Information Technology,Semester 5,85.6,75.7,81.0,80.3,63.5,66.3,366.8,73.36,B,8.0,Pass
+25B11CE0119,Sindhu Nallamilli,Female,Civil Engineering,Semester 4,70.9,78.0,75.3,65.6,60.8,74.8,354.5,70.9,B,8.0,Pass
+25B11ME0112,Advik Velagapudi,Male,Mechanical Engineering,Semester 4,85.2,69.7,65.9,64.7,61.6,77.3,339.2,67.84,C,7.0,Pass
+25B11EC0119,Venkatesh Verma,Male,Electronics & Communication,Semester 8,77.8,37.8,47.9,63.6,56.2,58.0,263.5,52.7,F,0.0,Fail
+25B11EE0118,Lokesh Banerjee,Male,Electrical & Electronics,Semester 4,93.1,99.5,99.5,99.5,99.5,99.5,497.5,99.5,A+,10.0,Pass
+25B11EE0119,Pranav Kalyanam,Male,Electrical & Electronics,Semester 4,69.8,78.2,83.2,98.2,86.8,90.4,436.8,87.36,A,9.0,Pass
+25B11CE0120,Rohan Kovvuri,Male,Civil Engineering,Semester 3,70.4,63.1,62.5,74.6,88.4,83.7,372.3,74.46,B,8.0,Pass
+25B11CS0117,Hema Kanumuri,Female,Computer Science & Engineering,Semester 1,73.4,63.5,81.4,99.5,73.4,95.6,413.4,82.68,A,9.0,Pass
+25B11EC0120,Deepak Nair,Male,Electronics & Communication,Semester 1,67.4,49.1,61.6,76.1,57.6,72.3,316.7,63.34,C,7.0,Pass
+25B11IT0114,Deepika Chopra,Female,Information Technology,Semester 4,72.2,66.2,64.4,83.7,75.0,71.1,360.4,72.08,B,8.0,Pass
+25B11EC0121,Harini Shaik,Female,Electronics & Communication,Semester 7,90.0,84.2,93.0,99.5,97.6,99.5,473.8,94.76,A+,10.0,Pass
+25B11IT0115,Geethika Sharma,Female,Information Technology,Semester 3,99.5,95.4,78.1,95.9,99.2,99.5,468.1,93.62,A+,10.0,Pass
+25B11EC0122,Hema Marella,Female,Electronics & Communication,Semester 3,81.9,58.2,44.1,70.2,61.0,53.1,286.6,57.32,D,6.0,Pass
+25B11IT0116,Vivaan Yadav,Male,Information Technology,Semester 8,95.9,50.2,30.7,47.0,30.4,56.9,215.2,43.04,F,0.0,Fail
+25B11EE0120,Mohit Gollapudi,Male,Electrical & Electronics,Semester 2,80.8,49.0,51.6,67.7,47.5,54.0,269.8,53.96,D,6.0,Pass
+25B11IT0117,Sai Saxena,Male,Information Technology,Semester 6,91.8,81.8,75.3,93.2,81.3,99.5,431.1,86.22,A,9.0,Pass
+25B11ME0113,Ananya Iyer,Female,Mechanical Engineering,Semester 6,85.2,59.7,66.4,71.6,65.0,61.0,323.7,64.74,C,7.0,Pass
+25B11IT0118,Charan Deshmukh,Male,Information Technology,Semester 2,68.4,63.2,54.1,81.0,74.4,69.7,342.4,68.48,C,7.0,Pass
+25B11ME0114,Anupama Patel,Female,Mechanical Engineering,Semester 4,61.0,54.0,70.2,65.8,63.8,69.1,322.9,64.58,C,7.0,Pass
+25B11IT0119,Kishore Rao,Male,Information Technology,Semester 1,65.9,68.4,57.3,64.7,63.3,59.0,312.7,62.54,C,7.0,Pass
+25B11EC0123,Shreya Yadav,Female,Electronics & Communication,Semester 3,74.9,72.8,66.4,81.3,68.7,85.5,374.7,74.94,B,8.0,Pass
+25B11ME0115,Vikram Banerjee,Male,Mechanical Engineering,Semester 2,64.3,30.1,36.5,21.1,35.7,37.8,161.2,32.24,F,0.0,Fail
+25B11CE0121,Naveen Sen,Male,Civil Engineering,Semester 7,85.4,77.5,85.2,77.2,66.4,89.2,395.5,79.1,B,8.0,Pass
+25B11IT0120,Jagadeesh Das,Male,Information Technology,Semester 3,79.1,87.9,85.3,98.6,90.3,99.5,461.6,92.32,A+,10.0,Pass
+25B11IT0121,Sameer Ghosh,Male,Information Technology,Semester 7,85.2,71.7,67.0,70.8,68.0,88.7,366.2,73.24,B,8.0,Pass
+25B11CS0118,Meera Shaik,Female,Computer Science & Engineering,Semester 4,91.8,85.7,64.0,72.6,70.0,75.1,367.4,73.48,B,8.0,Pass
+25B11CS0119,Madhav Nallamilli,Male,Computer Science & Engineering,Semester 8,60.1,69.7,54.8,63.9,66.7,61.4,316.5,63.3,C,7.0,Pass
+25B11CE0122,Simran Kulkarni,Female,Civil Engineering,Semester 6,65.2,70.0,51.6,67.9,70.3,71.7,331.5,66.3,C,7.0,Pass
+25B11CS0120,Divya Kalyanam,Female,Computer Science & Engineering,Semester 8,48.1,51.2,40.2,65.3,69.0,61.8,287.5,57.5,D,6.0,Pass
+25B11CE0123,Vikram Marella,Male,Civil Engineering,Semester 3,91.9,99.5,99.5,99.5,99.5,99.5,497.5,99.5,A+,10.0,Pass
+25B11ME0116,Vihaan Bose,Male,Mechanical Engineering,Semester 5,78.0,50.2,40.0,53.1,45.8,46.4,235.5,47.1,F,0.0,Fail
+25B11CS0121,Kishore Sharma,Male,Computer Science & Engineering,Semester 5,61.4,87.9,69.2,88.3,99.5,96.9,441.8,88.36,A,9.0,Pass
+25B11CE0124,Suresh Tadicherla,Male,Civil Engineering,Semester 6,84.1,76.7,62.6,74.4,79.0,84.2,376.9,75.38,B,8.0,Pass
+25B11CS0122,Madhav Banerjee,Male,Computer Science & Engineering,Semester 1,79.1,68.7,61.1,77.8,65.2,76.8,349.6,69.92,C,7.0,Pass
+25B11CE0125,Tanvi Velagapudi,Female,Civil Engineering,Semester 8,75.7,47.0,41.5,69.6,58.2,70.8,287.1,57.42,D,6.0,Pass
+25B11CS0123,Lokesh Patel,Male,Computer Science & Engineering,Semester 5,98.9,99.5,91.4,99.5,99.5,99.5,489.4,97.88,A+,10.0,Pass
+25B11ME0117,Deepika Nallamilli,Female,Mechanical Engineering,Semester 2,82.8,68.5,60.3,53.0,55.7,63.9,301.4,60.28,C,7.0,Pass
+25B11CE0126,Payal Marella,Female,Civil Engineering,Semester 1,98.6,99.5,96.5,99.5,99.3,99.5,494.3,98.86,A+,10.0,Pass
+25B11IT0122,Sameer Agarwal,Male,Information Technology,Semester 3,83.0,99.5,99.5,88.8,99.5,99.5,486.8,97.36,A+,10.0,Pass
+25B11CE0127,Kavya Mishra,Female,Civil Engineering,Semester 5,71.3,60.7,64.9,59.4,56.0,57.0,298.0,59.6,D,6.0,Pass
+25B11EE0121,Aarav Penmatsa,Male,Electrical & Electronics,Semester 2,71.6,71.1,61.5,56.2,67.7,61.9,318.4,63.68,C,7.0,Pass
+25B11ME0118,Manasa Mishra,Female,Mechanical Engineering,Semester 7,54.6,47.5,42.2,49.0,51.6,31.7,222.0,44.4,F,0.0,Fail
+25B11EC0124,Aarav Kanumuri,Male,Electronics & Communication,Semester 8,85.9,59.1,62.1,46.7,64.8,70.8,303.5,60.7,C,7.0,Pass
+25B11CS0124,Harsh Reddy,Male,Computer Science & Engineering,Semester 6,96.4,95.8,86.0,99.5,81.2,97.3,459.8,91.96,A+,10.0,Pass
+25B11CS0125,Venkatesh Shaik,Male,Computer Science & Engineering,Semester 5,80.8,64.4,64.7,78.6,77.3,78.8,363.8,72.76,B,8.0,Pass
+25B11EC0125,Manya Iyer,Female,Electronics & Communication,Semester 5,80.1,38.3,27.5,44.5,51.5,56.9,218.7,43.74,F,0.0,Fail
+25B11CE0128,Manish Malhotra,Male,Civil Engineering,Semester 5,67.6,87.7,50.3,68.2,63.2,70.8,340.2,68.04,C,7.0,Pass
+25B11EC0126,Keerthi Banerjee,Female,Electronics & Communication,Semester 8,92.7,72.9,82.7,75.0,75.4,72.2,378.2,75.64,B,8.0,Pass
+25B11ME0119,Harsh Kanumuri,Male,Mechanical Engineering,Semester 3,84.0,52.3,59.4,67.0,64.9,54.5,298.1,59.62,D,6.0,Pass
+25B11EC0127,Pranathi Deshmukh,Female,Electronics & Communication,Semester 3,66.1,43.3,51.7,53.5,42.8,61.5,252.8,50.56,D,6.0,Pass
+25B11EE0122,Divya Iyer,Female,Electrical & Electronics,Semester 5,60.2,68.9,70.8,82.1,88.4,82.9,393.1,78.62,B,8.0,Pass
+25B11CS0126,Rohan Peddireddy,Male,Computer Science & Engineering,Semester 6,75.8,73.7,68.2,71.5,55.0,75.6,344.0,68.8,C,7.0,Pass
+25B11ME0120,Kunal Das,Male,Mechanical Engineering,Semester 6,99.5,99.5,89.7,99.5,99.5,99.5,487.7,97.54,A+,10.0,Pass
+25B11EE0123,Sindhu Das,Female,Electrical & Electronics,Semester 2,84.2,98.0,99.5,99.5,99.5,99.5,496.0,99.2,A+,10.0,Pass
+25B11ME0121,Aniket Nair,Male,Mechanical Engineering,Semester 5,94.5,78.9,85.7,99.5,83.8,99.5,447.4,89.48,A,9.0,Pass
+25B11EE0124,Naveen Saxena,Male,Electrical & Electronics,Semester 3,77.6,60.9,48.3,51.6,54.3,71.2,286.3,57.26,D,6.0,Pass
+25B11IT0123,Radhika Kulkarni,Female,Information Technology,Semester 1,79.0,60.3,64.9,74.5,71.0,75.5,346.2,69.24,C,7.0,Pass
+25B11CS0127,Saanvi Kalyanam,Female,Computer Science & Engineering,Semester 2,88.6,69.9,68.3,81.2,71.7,82.1,373.2,74.64,B,8.0,Pass
+25B11ME0122,Bhuvan Bandaru,Male,Mechanical Engineering,Semester 5,80.9,77.9,77.5,99.5,83.9,89.5,428.3,85.66,A,9.0,Pass
+25B11EC0128,Rahul Yadav,Male,Electronics & Communication,Semester 2,81.5,41.8,40.4,44.5,55.9,51.9,234.5,46.9,F,0.0,Fail
+25B11CE0129,Navya Gudipati,Female,Civil Engineering,Semester 7,62.0,55.7,53.7,46.6,66.3,54.5,276.8,55.36,D,6.0,Pass
+25B11CS0128,Harini Chintalapati,Female,Computer Science & Engineering,Semester 7,84.5,30.1,42.2,41.0,31.1,27.9,172.3,34.46,F,0.0,Fail
+25B11IT0124,Harini Kovvuri,Female,Information Technology,Semester 2,90.6,90.5,97.0,86.9,91.6,92.8,458.8,91.76,A+,10.0,Pass
+25B11IT0125,Priya Kulkarni,Female,Information Technology,Semester 2,91.2,78.0,78.2,93.1,95.7,87.1,432.1,86.42,A,9.0,Pass
+25B11EC0129,Bhuvan Tadicherla,Male,Electronics & Communication,Semester 8,70.2,78.8,72.5,93.8,79.4,98.5,423.0,84.6,A,9.0,Pass
+25B11EE0125,Gauri Kanumuri,Female,Electrical & Electronics,Semester 5,72.5,27.0,37.0,43.4,43.5,41.6,192.5,38.5,F,0.0,Fail
+25B11CS0129,Priya Shaik,Female,Computer Science & Engineering,Semester 8,70.4,74.5,65.3,71.5,65.5,81.2,358.0,71.6,B,8.0,Pass
+25B11CS0130,Deepak Velagapudi,Male,Computer Science & Engineering,Semester 6,70.9,47.4,59.6,58.9,71.0,65.9,302.8,60.56,C,7.0,Pass
+25B11EE0126,Vikram Chintalapati,Male,Electrical & Electronics,Semester 7,84.0,59.6,62.7,49.8,74.3,62.3,308.7,61.74,C,7.0,Pass
+25B11IT0126,Nikhil Gupta,Male,Information Technology,Semester 3,97.5,99.5,99.5,99.5,99.5,99.5,497.5,99.5,A+,10.0,Pass
+25B11ME0123,Pooja Mishra,Female,Mechanical Engineering,Semester 2,82.2,87.8,58.1,81.9,74.1,77.6,379.5,75.9,B,8.0,Pass
+25B11CE0130,Manish Kumar,Male,Civil Engineering,Semester 2,98.3,74.7,59.8,88.2,99.5,98.3,420.5,84.1,A,9.0,Pass
+25B11CE0131,Arjun Mishra,Male,Civil Engineering,Semester 3,97.4,63.4,72.1,80.0,76.4,87.6,379.5,75.9,B,8.0,Pass
+25B11EC0130,Sindhu Bhatia,Female,Electronics & Communication,Semester 3,93.7,48.2,55.2,53.7,51.0,55.5,263.6,52.72,D,6.0,Pass
+25B11EC0131,Meera Gollapudi,Female,Electronics & Communication,Semester 7,65.6,38.7,36.7,42.0,40.4,39.9,197.7,39.54,F,0.0,Fail
+25B11IT0127,Ayaan Nallamilli,Male,Information Technology,Semester 3,98.4,78.7,71.9,80.6,95.8,88.4,415.4,83.08,A,9.0,Pass
+25B11ME0124,Aanya Rao,Female,Mechanical Engineering,Semester 2,82.3,75.2,58.9,90.4,86.6,93.9,405.0,81.0,A,9.0,Pass
+25B11CS0131,Khushi Gupta,Female,Computer Science & Engineering,Semester 3,84.4,98.4,75.3,86.8,89.5,99.5,449.5,89.9,A,9.0,Pass
+25B11ME0125,Navya Jain,Female,Mechanical Engineering,Semester 7,85.8,70.2,51.3,59.8,62.5,76.1,319.9,63.98,C,7.0,Pass
+25B11EC0132,Reyansh Deshmukh,Male,Electronics & Communication,Semester 5,93.9,58.3,56.0,59.1,68.4,58.8,300.6,60.12,C,7.0,Pass
+25B11CE0132,Sara Mehta,Female,Civil Engineering,Semester 2,74.1,77.0,63.3,93.8,57.1,73.8,365.0,73.0,B,8.0,Pass
+25B11IT0128,Chandana Gollapudi,Female,Information Technology,Semester 6,79.5,47.0,44.3,58.1,37.8,58.5,245.7,49.14,F,0.0,Fail
+25B11CS0132,Sara Mehta,Female,Computer Science & Engineering,Semester 2,71.9,68.7,65.8,77.6,64.7,75.4,352.2,70.44,B,8.0,Pass
+25B11EC0133,Anupama Mishra,Female,Electronics & Communication,Semester 2,87.4,71.4,80.0,71.8,75.2,64.9,363.3,72.66,B,8.0,Pass
+25B11CS0133,Ishaan Choudhary,Male,Computer Science & Engineering,Semester 3,84.2,94.8,92.9,99.5,76.8,97.6,461.6,92.32,A+,10.0,Pass
+25B11EE0127,Venkatesh Gupta,Male,Electrical & Electronics,Semester 6,86.1,69.1,84.5,73.6,68.8,72.4,368.4,73.68,B,8.0,Pass
+25B11EE0128,Jagadeesh Banerjee,Male,Electrical & Electronics,Semester 2,72.7,97.4,78.7,78.4,96.5,90.4,441.4,88.28,A,9.0,Pass
+25B11ME0126,Kavya Penmatsa,Female,Mechanical Engineering,Semester 5,90.0,90.8,92.2,99.5,91.4,99.5,473.4,94.68,A+,10.0,Pass
+25B11CS0134,Shaurya Kulkarni,Male,Computer Science & Engineering,Semester 5,75.6,79.4,81.0,99.5,68.3,99.5,427.7,85.54,A,9.0,Pass
+25B11EE0129,Ramesh Bose,Male,Electrical & Electronics,Semester 5,81.8,82.6,93.8,89.0,84.5,66.9,416.8,83.36,A,9.0,Pass
+25B11ME0127,Neha Saxena,Female,Mechanical Engineering,Semester 5,65.5,72.6,60.3,50.3,69.0,76.5,328.7,65.74,C,7.0,Pass
+25B11CE0133,Deepak Chintalapati,Male,Civil Engineering,Semester 4,85.4,97.7,81.6,99.5,95.3,99.5,473.6,94.72,A+,10.0,Pass
+25B11ME0128,Naveen Chopra,Male,Mechanical Engineering,Semester 7,78.5,93.9,97.7,82.3,83.9,99.5,457.3,91.46,A+,10.0,Pass
+25B11IT0129,Dileep Chopra,Male,Information Technology,Semester 5,70.4,42.0,56.3,58.6,47.3,62.5,266.7,53.34,D,6.0,Pass
+25B11EC0134,Abhinav Dandu,Male,Electronics & Communication,Semester 6,94.8,64.5,70.0,80.3,68.2,71.2,354.2,70.84,B,8.0,Pass
+25B11CE0134,Lavanya Bandaru,Female,Civil Engineering,Semester 8,97.6,78.2,88.6,86.0,82.4,80.5,415.7,83.14,A,9.0,Pass
+25B11CS0135,Pranav Chopra,Male,Computer Science & Engineering,Semester 1,88.3,63.4,45.4,56.6,58.6,77.2,301.2,60.24,C,7.0,Pass
+25B11ME0129,Bhuvan Kovvuri,Male,Mechanical Engineering,Semester 1,99.5,99.5,99.5,99.5,99.5,99.5,497.5,99.5,A+,10.0,Pass
+25B11IT0130,Pranav Nair,Male,Information Technology,Semester 1,90.6,66.0,59.7,80.0,78.7,82.2,366.6,73.32,B,8.0,Pass
+25B11CS0136,Madhav Ghosh,Male,Computer Science & Engineering,Semester 1,99.5,67.2,73.8,83.1,69.9,77.7,371.7,74.34,B,8.0,Pass
+25B11ME0130,Pranav Yadav,Male,Mechanical Engineering,Semester 3,79.8,84.5,68.1,86.6,91.1,99.5,429.8,85.96,A,9.0,Pass
+25B11IT0131,Harini Ghosh,Female,Information Technology,Semester 8,81.0,75.7,60.4,95.5,78.3,82.1,392.0,78.4,B,8.0,Pass
+25B11EC0135,Tanvi Gollapudi,Female,Electronics & Communication,Semester 8,80.6,91.2,86.4,99.5,96.3,98.1,471.5,94.3,A+,10.0,Pass
+25B11CS0137,Kusuma Yarlagadda,Female,Computer Science & Engineering,Semester 1,74.5,64.3,61.4,61.7,67.3,79.5,334.2,66.84,C,7.0,Pass
+25B11ME0131,Anjali Ghosh,Female,Mechanical Engineering,Semester 6,63.3,61.9,63.5,83.0,60.0,76.4,344.8,68.96,C,7.0,Pass
+25B11ME0132,Aadhya Nallamilli,Female,Mechanical Engineering,Semester 6,80.0,65.6,66.5,73.6,68.1,68.7,342.5,68.5,C,7.0,Pass
+25B11CS0138,Chaitanya Nallamilli,Male,Computer Science & Engineering,Semester 1,80.2,70.6,65.9,62.6,71.4,64.5,335.0,67.0,C,7.0,Pass
+25B11CS0139,Nikhil Penmatsa,Male,Computer Science & Engineering,Semester 4,85.0,72.6,89.6,85.8,86.8,99.5,434.3,86.86,A,9.0,Pass
+25B11IT0132,Aditya Chopra,Male,Information Technology,Semester 6,83.9,57.3,50.7,60.0,74.8,65.8,308.6,61.72,C,7.0,Pass
+25B11CE0135,Pooja Joshi,Female,Civil Engineering,Semester 2,70.0,61.2,34.9,70.9,57.8,69.3,294.1,58.82,F,0.0,Fail
+25B11EE0130,Pavan Kulkarni,Male,Electrical & Electronics,Semester 4,99.5,60.5,81.4,79.4,70.1,85.2,376.6,75.32,B,8.0,Pass
+25B11CS0140,Sai Tadicherla,Male,Computer Science & Engineering,Semester 4,78.5,93.6,73.0,94.6,84.1,99.5,444.8,88.96,A,9.0,Pass
+25B11EE0131,Simran Yarlagadda,Female,Electrical & Electronics,Semester 6,89.2,76.0,74.2,57.7,80.7,98.1,386.7,77.34,B,8.0,Pass
+25B11EC0136,Ananya Chintalapati,Female,Electronics & Communication,Semester 4,87.0,77.1,75.9,78.5,92.3,85.2,409.0,81.8,A,9.0,Pass
+25B11EC0137,Charan Dandu,Male,Electronics & Communication,Semester 6,86.5,84.6,87.5,95.0,76.5,99.5,443.1,88.62,A,9.0,Pass
+25B11IT0133,Isha Bose,Female,Information Technology,Semester 8,91.1,72.6,76.5,90.3,66.0,88.7,394.1,78.82,B,8.0,Pass
+25B11ME0133,Meera Sagi,Female,Mechanical Engineering,Semester 1,84.1,84.0,95.1,82.5,93.9,90.9,446.4,89.28,A,9.0,Pass
+25B11ME0134,Manasa Sharma,Female,Mechanical Engineering,Semester 2,99.5,96.9,88.8,89.4,92.6,99.5,467.2,93.44,A+,10.0,Pass
+25B11IT0134,Divya Penmatsa,Female,Information Technology,Semester 8,74.6,79.4,93.4,94.8,89.7,99.5,456.8,91.36,A+,10.0,Pass
+25B11CE0136,Pranav Gudipati,Male,Civil Engineering,Semester 7,84.6,67.1,54.6,61.1,67.1,58.6,308.5,61.7,C,7.0,Pass
+25B11CS0141,Varun Joshi,Male,Computer Science & Engineering,Semester 5,77.2,72.5,70.6,82.7,69.2,84.4,379.4,75.88,B,8.0,Pass
+25B11CS0142,Reyansh Gollapudi,Male,Computer Science & Engineering,Semester 2,95.3,63.7,73.0,73.6,74.3,60.6,345.2,69.04,C,7.0,Pass
+25B11CE0137,Manya Mishra,Female,Civil Engineering,Semester 2,76.6,62.2,70.4,69.5,74.9,84.3,361.3,72.26,B,8.0,Pass
+25B11CE0138,Pooja Bhatia,Female,Civil Engineering,Semester 1,98.2,98.9,99.5,99.5,99.5,91.8,489.2,97.84,A+,10.0,Pass
+25B11IT0135,Nikhil Velagapudi,Male,Information Technology,Semester 1,99.4,87.0,90.5,82.7,77.6,79.8,417.6,83.52,A,9.0,Pass
+25B11IT0136,Advik Tadicherla,Male,Information Technology,Semester 7,74.4,50.1,55.0,64.0,40.5,73.3,282.9,56.58,D,6.0,Pass
+25B11IT0137,Venkatesh Kalyanam,Male,Information Technology,Semester 1,99.5,86.2,94.7,80.0,95.8,99.5,456.2,91.24,A+,10.0,Pass
+25B11CE0139,Aarav Choudhary,Male,Civil Engineering,Semester 8,91.6,68.6,57.5,69.0,60.5,79.3,334.9,66.98,C,7.0,Pass
+25B11CE0140,Siddharth Nallamilli,Male,Civil Engineering,Semester 2,78.9,51.9,73.3,79.3,69.3,98.0,371.8,74.36,B,8.0,Pass
+25B11EC0138,Indira Dandu,Female,Electronics & Communication,Semester 4,92.0,91.1,92.4,99.5,97.5,95.6,476.1,95.22,A+,10.0,Pass
+25B11CS0143,Bhuvan Gollapudi,Male,Computer Science & Engineering,Semester 3,75.8,66.1,81.1,59.8,69.1,61.8,337.9,67.58,C,7.0,Pass
+25B11IT0138,Atharv Nallamilli,Male,Information Technology,Semester 6,80.4,52.6,56.1,58.3,64.2,58.6,289.8,57.96,D,6.0,Pass
+25B11ME0135,Shreya Verma,Female,Mechanical Engineering,Semester 4,73.2,78.9,63.4,60.2,76.3,72.2,351.0,70.2,B,8.0,Pass
+25B11EE0132,Aditya Marella,Male,Electrical & Electronics,Semester 7,66.2,33.5,56.9,65.7,57.8,47.9,261.8,52.36,F,0.0,Fail
+25B11CS0144,Sneha Sagi,Female,Computer Science & Engineering,Semester 1,83.7,99.5,98.3,99.5,99.5,99.5,496.3,99.26,A+,10.0,Pass
+25B11CE0141,Chaitanya Tadicherla,Male,Civil Engineering,Semester 3,81.2,99.5,87.8,98.3,99.1,99.5,484.2,96.84,A+,10.0,Pass
+25B11CS0145,Varun Agarwal,Male,Computer Science & Engineering,Semester 8,87.0,99.5,98.9,99.5,99.5,99.5,496.9,99.38,A+,10.0,Pass
+25B11CE0142,Siya Peddireddy,Female,Civil Engineering,Semester 3,65.9,41.9,37.1,44.9,45.5,41.3,210.7,42.14,F,0.0,Fail
+25B11ME0136,Divya Marella,Female,Mechanical Engineering,Semester 2,64.0,61.0,53.7,73.5,57.5,74.8,320.5,64.1,C,7.0,Pass
+25B11IT0139,Diya Nallamilli,Female,Information Technology,Semester 6,87.7,99.5,99.5,99.5,99.5,99.5,497.5,99.5,A+,10.0,Pass
+25B11CE0143,Keerthi Sagi,Female,Civil Engineering,Semester 2,91.3,65.6,63.2,68.7,62.2,73.0,332.7,66.54,C,7.0,Pass
+25B11ME0137,Meera Mehta,Female,Mechanical Engineering,Semester 4,88.9,68.2,56.6,76.4,81.8,78.9,361.9,72.38,B,8.0,Pass
+25B11CE0144,Pavan Mehta,Male,Civil Engineering,Semester 4,81.6,74.2,64.3,72.0,76.5,79.3,366.3,73.26,B,8.0,Pass
+25B11EE0133,Kabir Kovvuri,Male,Electrical & Electronics,Semester 1,84.3,65.1,71.5,63.0,68.8,73.9,342.3,68.46,C,7.0,Pass
+25B11CE0145,Sneha Sagi,Female,Civil Engineering,Semester 3,68.3,58.1,55.6,66.1,71.5,73.7,325.0,65.0,C,7.0,Pass
+25B11EE0134,Kavya Yadav,Female,Electrical & Electronics,Semester 6,64.8,84.9,86.2,99.5,89.9,91.7,452.2,90.44,A+,10.0,Pass
+25B11EC0139,Nikhil Verma,Male,Electronics & Communication,Semester 3,82.2,70.8,84.0,73.4,88.0,86.0,402.2,80.44,A,9.0,Pass
+25B11EE0135,Manish Kovvuri,Male,Electrical & Electronics,Semester 6,63.7,67.8,73.5,99.5,79.7,65.6,386.1,77.22,B,8.0,Pass
+25B11IT0140,Siya Iyer,Female,Information Technology,Semester 1,88.9,82.9,75.5,80.8,88.4,88.2,415.8,83.16,A,9.0,Pass
+25B11CS0146,Pooja Gollapudi,Female,Computer Science & Engineering,Semester 3,88.3,99.5,85.1,97.9,99.5,99.5,481.5,96.3,A+,10.0,Pass
+25B11ME0138,Pari Bandaru,Female,Mechanical Engineering,Semester 6,99.5,76.2,79.4,98.1,88.0,91.3,433.0,86.6,A,9.0,Pass
+25B11IT0141,Mohit Datla,Male,Information Technology,Semester 6,86.1,85.8,50.7,64.0,49.8,72.6,322.9,64.58,C,7.0,Pass
+25B11ME0139,Sameer Agarwal,Male,Mechanical Engineering,Semester 6,99.5,99.5,99.5,99.5,99.5,99.5,497.5,99.5,A+,10.0,Pass
+25B11ME0140,Charan Sharma,Male,Mechanical Engineering,Semester 7,71.4,76.1,71.2,73.0,70.4,79.4,370.1,74.02,B,8.0,Pass
+25B11CE0146,Bhavana Banerjee,Female,Civil Engineering,Semester 7,91.2,72.8,75.3,76.5,76.4,74.7,375.7,75.14,B,8.0,Pass
+25B11ME0141,Aarav Deshmukh,Male,Mechanical Engineering,Semester 1,78.1,83.7,82.8,73.4,80.4,99.5,419.8,83.96,A,9.0,Pass
+25B11EC0140,Manoj Pandey,Male,Electronics & Communication,Semester 2,72.4,74.7,42.7,67.1,62.8,62.2,309.5,61.9,C,7.0,Pass
+25B11ME0142,Suresh Verma,Male,Mechanical Engineering,Semester 2,87.5,55.3,60.1,72.7,72.3,68.7,329.1,65.82,C,7.0,Pass
+25B11EC0141,Arjun Dandu,Male,Electronics & Communication,Semester 8,74.6,67.2,67.9,59.7,67.6,82.2,344.6,68.92,C,7.0,Pass
+25B11IT0142,Rakesh Tadicherla,Male,Information Technology,Semester 8,79.1,55.1,40.6,52.8,35.1,51.2,234.8,46.96,F,0.0,Fail
+25B11CS0147,Navya Chopra,Female,Computer Science & Engineering,Semester 7,79.1,74.9,56.7,80.9,69.2,71.8,353.5,70.7,B,8.0,Pass
+25B11CE0147,Siya Das,Female,Civil Engineering,Semester 1,84.9,72.9,90.4,79.0,92.6,89.0,423.9,84.78,A,9.0,Pass
+25B11ME0143,Prisha Chintalapati,Female,Mechanical Engineering,Semester 7,83.0,72.8,62.2,79.3,50.8,78.2,343.3,68.66,C,7.0,Pass
+25B11CE0148,Dhruv Mishra,Male,Civil Engineering,Semester 1,96.6,99.5,99.5,99.5,99.5,99.5,497.5,99.5,A+,10.0,Pass
+25B11EE0136,Jagadeesh Shaik,Male,Electrical & Electronics,Semester 6,83.3,50.2,66.7,78.5,79.4,91.3,366.1,73.22,B,8.0,Pass
+25B11IT0143,Rahul Mehta,Male,Information Technology,Semester 1,99.5,82.8,84.2,76.0,63.8,91.8,398.6,79.72,B,8.0,Pass
+25B11ME0144,Naveen Choudhary,Male,Mechanical Engineering,Semester 1,99.5,99.5,99.5,99.5,99.5,99.5,497.5,99.5,A+,10.0,Pass
+25B11CS0148,Siddharth Reddy,Male,Computer Science & Engineering,Semester 6,74.1,59.4,65.6,71.5,75.9,85.6,358.0,71.6,B,8.0,Pass
+25B11EE0137,Rohan Choudhary,Male,Electrical & Electronics,Semester 2,85.7,99.5,99.5,99.5,99.5,99.5,497.5,99.5,A+,10.0,Pass
+25B11EC0142,Atharv Sharma,Male,Electronics & Communication,Semester 5,82.5,85.0,77.2,82.2,73.2,74.9,392.5,78.5,B,8.0,Pass
+25B11EE0138,Ananya Saxena,Female,Electrical & Electronics,Semester 4,76.0,96.0,99.2,96.6,99.5,99.5,490.8,98.16,A+,10.0,Pass
+25B11ME0145,Nikhil Deshmukh,Male,Mechanical Engineering,Semester 1,88.8,81.3,85.3,99.5,98.2,96.7,461.0,92.2,A+,10.0,Pass
+25B11CS0149,Jahnavi Nair,Female,Computer Science & Engineering,Semester 8,94.0,74.0,74.6,89.3,99.5,93.2,430.6,86.12,A,9.0,Pass
+25B11EE0139,Aarohi Sagi,Female,Electrical & Electronics,Semester 3,74.9,42.2,60.3,70.2,44.8,62.4,279.9,55.98,D,6.0,Pass
+25B11ME0146,Aarav Mehta,Male,Mechanical Engineering,Semester 2,97.1,93.2,99.5,99.5,99.5,99.5,491.2,98.24,A+,10.0,Pass
+25B11CS0150,Sindhu Malhotra,Female,Computer Science & Engineering,Semester 1,74.7,39.2,47.9,66.5,52.9,54.4,260.9,52.18,F,0.0,Fail
+25B11ME0147,Pranathi Bose,Female,Mechanical Engineering,Semester 1,84.4,74.8,78.9,78.1,74.2,90.5,396.5,79.3,B,8.0,Pass
+25B11IT0144,Lavanya Choudhary,Female,Information Technology,Semester 5,68.7,39.8,60.5,56.2,75.2,77.3,309.0,61.8,F,0.0,Fail
+25B11EC0143,Neha Bose,Female,Electronics & Communication,Semester 3,69.1,97.1,85.2,99.5,83.4,93.3,458.5,91.7,A+,10.0,Pass
+25B11IT0145,Yamini Saxena,Female,Information Technology,Semester 3,73.2,38.1,53.5,71.4,54.2,44.5,261.7,52.34,F,0.0,Fail
+25B11EC0144,Ramesh Sharma,Male,Electronics & Communication,Semester 6,64.1,96.7,87.7,99.5,85.2,99.5,468.6,93.72,A+,10.0,Pass
+25B11ME0148,Harsh Sagi,Male,Mechanical Engineering,Semester 3,82.9,99.5,98.5,99.5,99.5,99.5,496.5,99.3,A+,10.0,Pass
+25B11CE0149,Deepika Choudhary,Female,Civil Engineering,Semester 2,66.9,99.5,99.5,99.5,99.3,99.5,497.3,99.46,A+,10.0,Pass
+25B11EC0145,Varun Peddireddy,Male,Electronics & Communication,Semester 5,81.4,50.4,43.9,53.3,43.6,49.8,241.0,48.2,F,0.0,Fail
+25B11ME0149,Ananya Bose,Female,Mechanical Engineering,Semester 1,75.5,99.5,83.5,99.5,87.4,99.5,469.4,93.88,A+,10.0,Pass
+25B11CS0151,Vikram Verma,Male,Computer Science & Engineering,Semester 6,74.8,31.4,42.3,32.8,26.4,32.8,165.7,33.14,F,0.0,Fail
+25B11CS0152,Anupama Sagi,Female,Computer Science & Engineering,Semester 6,62.3,15.0,17.7,24.5,15.0,15.0,87.2,17.44,F,0.0,Fail
+25B11CS0153,Aanya Dandu,Female,Computer Science & Engineering,Semester 7,94.3,87.8,89.4,99.5,91.6,95.4,463.7,92.74,A+,10.0,Pass
+25B11ME0150,Rohan Chintalapati,Male,Mechanical Engineering,Semester 6,85.9,61.6,62.9,63.6,64.2,60.4,312.7,62.54,C,7.0,Pass
+25B11EE0140,Aanya Gupta,Female,Electrical & Electronics,Semester 7,78.0,76.6,68.9,73.9,57.3,90.1,366.8,73.36,B,8.0,Pass
+25B11ME0151,Sanjay Mehta,Male,Mechanical Engineering,Semester 8,72.9,50.0,33.3,59.1,53.9,34.2,230.5,46.1,F,0.0,Fail
+25B11IT0146,Neha Datla,Female,Information Technology,Semester 4,72.0,58.5,57.2,50.9,55.4,66.9,288.9,57.78,D,6.0,Pass
+25B11EE0141,Indira Marella,Female,Electrical & Electronics,Semester 7,83.2,74.6,95.9,93.6,99.5,88.5,452.1,90.42,A+,10.0,Pass
+25B11ME0152,Chandana Chopra,Female,Mechanical Engineering,Semester 2,99.5,84.7,81.4,99.5,83.0,99.5,448.1,89.62,A,9.0,Pass
+25B11ME0153,Aditya Das,Male,Mechanical Engineering,Semester 5,78.3,74.5,82.5,65.7,78.2,68.9,369.8,73.96,B,8.0,Pass
+25B11EE0142,Vihaan Agarwal,Male,Electrical & Electronics,Semester 7,89.6,96.9,99.5,99.5,99.5,99.5,494.9,98.98,A+,10.0,Pass
+25B11EE0143,Payal Tadicherla,Female,Electrical & Electronics,Semester 5,99.5,97.8,99.5,99.5,99.5,99.5,495.8,99.16,A+,10.0,Pass
+25B11IT0147,Aarav Pandey,Male,Information Technology,Semester 1,58.1,46.2,59.5,49.3,43.6,52.7,251.3,50.26,D,6.0,Pass
+25B11CS0154,Pooja Patel,Female,Computer Science & Engineering,Semester 1,93.1,99.5,99.5,99.5,99.5,99.5,497.5,99.5,A+,10.0,Pass
+25B11IT0148,Aniket Deshmukh,Male,Information Technology,Semester 3,89.4,76.1,75.1,86.5,81.1,89.7,408.5,81.7,A,9.0,Pass
+25B11ME0154,Manish Deshmukh,Male,Mechanical Engineering,Semester 3,79.4,56.6,80.4,76.8,76.0,86.1,375.9,75.18,B,8.0,Pass
+25B11IT0149,Diya Jain,Female,Information Technology,Semester 7,68.2,55.7,62.3,69.5,56.6,61.8,305.9,61.18,C,7.0,Pass
+25B11CE0150,Meera Yadav,Female,Civil Engineering,Semester 8,56.7,48.9,36.0,47.1,39.4,33.0,204.4,40.88,F,0.0,Fail
+25B11ME0155,Suresh Sen,Male,Mechanical Engineering,Semester 7,72.4,47.2,55.7,52.8,42.8,55.3,253.8,50.76,D,6.0,Pass
+25B11ME0156,Tarun Jain,Male,Mechanical Engineering,Semester 1,70.8,57.0,35.3,59.7,37.8,52.6,242.4,48.48,F,0.0,Fail
+25B11CE0151,Jagadeesh Kanumuri,Male,Civil Engineering,Semester 4,66.8,39.5,32.5,45.4,54.6,54.8,226.8,45.36,F,0.0,Fail
+25B11CS0155,Meera Dandu,Female,Computer Science & Engineering,Semester 8,76.0,90.4,78.5,99.5,79.8,93.4,441.6,88.32,A,9.0,Pass
+25B11EC0146,Sameer Datla,Male,Electronics & Communication,Semester 1,78.0,98.3,78.0,96.5,99.5,88.3,460.6,92.12,A+,10.0,Pass
+25B11ME0157,Dev Nair,Male,Mechanical Engineering,Semester 2,58.5,51.4,42.7,53.3,47.8,58.8,254.0,50.8,D,6.0,Pass
+25B11EC0147,Aanya Kumar,Female,Electronics & Communication,Semester 7,84.0,54.6,52.1,71.8,69.0,70.5,318.0,63.6,C,7.0,Pass
+25B11ME0158,Harish Penmatsa,Male,Mechanical Engineering,Semester 3,91.3,99.5,99.5,99.5,99.5,99.5,497.5,99.5,A+,10.0,Pass
+25B11CE0152,Manoj Reddy,Male,Civil Engineering,Semester 2,71.3,54.4,58.0,58.1,52.0,46.0,268.5,53.7,D,6.0,Pass
+25B11ME0159,Kusuma Sagi,Female,Mechanical Engineering,Semester 2,77.1,34.9,39.8,37.2,37.5,39.3,188.7,37.74,F,0.0,Fail
+25B11ME0160,Sneha Jain,Female,Mechanical Engineering,Semester 7,76.6,67.6,40.6,58.3,61.8,48.2,276.5,55.3,D,6.0,Pass
+25B11IT0150,Bhavana Datla,Female,Information Technology,Semester 2,99.5,99.5,99.5,99.5,99.5,99.5,497.5,99.5,A+,10.0,Pass
+25B11ME0161,Aarohi Tadicherla,Female,Mechanical Engineering,Semester 6,77.6,70.5,76.0,68.1,83.4,87.5,385.5,77.1,B,8.0,Pass
+25B11CS0156,Vikram Nair,Male,Computer Science & Engineering,Semester 8,94.7,99.5,99.5,99.5,94.9,99.5,492.9,98.58,A+,10.0,Pass
+25B11IT0151,Riya Kalyanam,Female,Information Technology,Semester 6,99.5,99.2,95.7,99.5,99.0,99.5,492.9,98.58,A+,10.0,Pass
+25B11ME0162,Saanvi Pandey,Female,Mechanical Engineering,Semester 2,88.7,62.8,78.9,85.0,73.1,72.8,372.6,74.52,B,8.0,Pass
+25B11IT0152,Kishore Bandaru,Male,Information Technology,Semester 7,82.6,95.9,99.5,93.5,93.3,85.6,467.8,93.56,A+,10.0,Pass
+25B11ME0163,Madhav Bhatia,Male,Mechanical Engineering,Semester 7,79.7,75.6,81.9,80.8,62.5,84.1,384.9,76.98,B,8.0,Pass
+25B11ME0164,Khushi Reddy,Female,Mechanical Engineering,Semester 6,56.4,84.4,86.7,78.7,74.1,89.9,413.8,82.76,A,9.0,Pass
+25B11ME0165,Manoj Kovvuri,Male,Mechanical Engineering,Semester 5,89.9,70.7,66.4,84.8,77.6,77.1,376.6,75.32,B,8.0,Pass
+25B11CE0153,Aditya Das,Male,Civil Engineering,Semester 6,57.1,36.0,50.5,66.9,35.1,38.1,226.6,45.32,F,0.0,Fail
+25B11CE0154,Naveen Deshmukh,Male,Civil Engineering,Semester 4,88.6,90.9,93.8,99.5,98.3,99.5,482.0,96.4,A+,10.0,Pass
+25B11EE0144,Gauri Mishra,Female,Electrical & Electronics,Semester 8,89.6,90.5,92.7,99.5,99.5,99.5,481.7,96.34,A+,10.0,Pass
+25B11ME0166,Gauri Jain,Female,Mechanical Engineering,Semester 6,92.6,96.8,89.1,99.5,97.5,99.5,482.4,96.48,A+,10.0,Pass
+25B11ME0167,Dhruv Bose,Male,Mechanical Engineering,Semester 6,91.0,91.4,77.9,99.5,99.1,83.4,451.3,90.26,A+,10.0,Pass
+25B11CE0155,Bhavana Joshi,Female,Civil Engineering,Semester 7,89.8,60.8,46.6,50.3,53.2,50.4,261.3,52.26,D,6.0,Pass
+25B11IT0153,Vanya Yadav,Female,Information Technology,Semester 6,80.5,76.4,68.0,99.5,71.1,67.5,382.5,76.5,B,8.0,Pass
+25B11CS0157,Shreya Kumar,Female,Computer Science & Engineering,Semester 2,72.7,67.8,66.0,79.6,60.4,73.5,347.3,69.46,C,7.0,Pass
+25B11ME0168,Varun Choudhary,Male,Mechanical Engineering,Semester 2,74.5,65.4,58.9,80.2,69.8,73.4,347.7,69.54,C,7.0,Pass
+25B11CE0156,Aanya Chintalapati,Female,Civil Engineering,Semester 3,76.5,63.0,44.2,73.0,76.1,65.6,321.9,64.38,C,7.0,Pass
+25B11CE0157,Deepak Singh,Male,Civil Engineering,Semester 8,77.0,86.8,94.0,80.4,72.0,97.3,430.5,86.1,A,9.0,Pass
+25B11CS0158,Naveen Bose,Male,Computer Science & Engineering,Semester 4,73.0,39.2,40.8,59.5,43.7,48.3,231.5,46.3,F,0.0,Fail
+25B11ME0169,Pari Nair,Female,Mechanical Engineering,Semester 8,61.1,65.4,55.8,54.9,43.4,69.6,289.1,57.82,D,6.0,Pass
+25B11IT0154,Nandini Nallamilli,Female,Information Technology,Semester 5,57.3,64.4,65.4,71.0,57.8,77.3,335.9,67.18,C,7.0,Pass
+25B11ME0170,Simran Kulkarni,Female,Mechanical Engineering,Semester 3,83.2,59.1,62.9,69.4,65.9,78.0,335.3,67.06,C,7.0,Pass
+25B11EC0148,Harish Marella,Male,Electronics & Communication,Semester 4,79.8,80.2,80.0,94.2,81.9,89.7,426.0,85.2,A,9.0,Pass
+25B11EE0145,Khushi Datla,Female,Electrical & Electronics,Semester 7,66.4,54.2,56.2,62.4,50.4,67.8,291.0,58.2,D,6.0,Pass
+25B11EE0146,Aanya Sen,Female,Electrical & Electronics,Semester 2,54.4,65.9,55.6,72.2,52.6,77.8,324.1,64.82,C,7.0,Pass
+25B11CE0158,Simran Dandu,Female,Civil Engineering,Semester 3,76.5,68.0,60.7,57.7,73.7,92.7,352.8,70.56,B,8.0,Pass
+25B11EE0147,Ritu Malhotra,Female,Electrical & Electronics,Semester 8,72.7,58.2,56.0,58.4,62.3,43.8,278.7,55.74,D,6.0,Pass
+25B11IT0155,Jagadeesh Mehta,Male,Information Technology,Semester 8,73.7,57.7,57.0,63.9,61.6,57.8,298.0,59.6,D,6.0,Pass
+25B11CS0159,Sanjay Ghosh,Male,Computer Science & Engineering,Semester 4,84.3,74.3,66.7,77.2,80.0,76.8,375.0,75.0,B,8.0,Pass
+25B11CS0160,Aanya Mehta,Female,Computer Science & Engineering,Semester 8,99.5,99.5,99.5,99.5,99.5,99.5,497.5,99.5,A+,10.0,Pass
+25B11CE0159,Priya Malhotra,Female,Civil Engineering,Semester 1,82.2,68.4,52.5,68.1,61.0,70.0,320.0,64.0,C,7.0,Pass
+25B11CS0161,Neha Agarwal,Female,Computer Science & Engineering,Semester 7,97.9,90.8,86.9,99.5,84.0,90.6,451.8,90.36,A+,10.0,Pass
+25B11IT0156,Radhika Bose,Female,Information Technology,Semester 7,73.2,72.6,87.7,79.4,81.3,90.2,411.2,82.24,A,9.0,Pass
+25B11IT0157,Pari Bose,Female,Information Technology,Semester 5,89.9,99.5,95.5,99.5,85.9,99.5,479.9,95.98,A+,10.0,Pass
+25B11CE0160,Vihaan Deshmukh,Male,Civil Engineering,Semester 1,59.5,46.8,29.8,47.4,52.6,41.2,217.8,43.56,F,0.0,Fail
+25B11CS0162,Shaurya Yadav,Male,Computer Science & Engineering,Semester 5,86.7,99.5,99.5,99.5,99.5,99.5,497.5,99.5,A+,10.0,Pass
+25B11ME0171,Saanvi Sagi,Female,Mechanical Engineering,Semester 3,91.1,74.8,64.5,74.8,77.3,62.2,353.6,70.72,B,8.0,Pass
+25B11CE0161,Anjali Marella,Female,Civil Engineering,Semester 6,80.1,87.7,81.8,99.5,99.5,99.5,468.0,93.6,A+,10.0,Pass
+25B11CS0163,Saanvi Joshi,Female,Computer Science & Engineering,Semester 5,88.2,79.1,67.3,88.7,76.2,71.6,382.9,76.58,B,8.0,Pass
+25B11CE0162,Manasa Tadicherla,Female,Civil Engineering,Semester 3,94.8,83.2,87.9,91.3,95.1,95.3,452.8,90.56,A+,10.0,Pass
+25B11EE0148,Bhavana Patel,Female,Electrical & Electronics,Semester 1,84.3,67.8,78.0,78.0,75.0,80.3,379.1,75.82,B,8.0,Pass
+25B11CE0163,Ananya Jain,Female,Civil Engineering,Semester 5,67.7,52.6,30.8,42.5,26.9,42.8,195.6,39.12,F,0.0,Fail
+25B11ME0172,Ritu Kulkarni,Female,Mechanical Engineering,Semester 8,95.4,86.3,80.3,99.5,68.1,96.7,430.9,86.18,A,9.0,Pass
+25B11CE0164,Anjali Singh,Female,Civil Engineering,Semester 4,94.3,90.0,88.1,99.5,91.8,99.5,468.9,93.78,A+,10.0,Pass
+25B11CE0165,Siddharth Agarwal,Male,Civil Engineering,Semester 4,99.5,93.4,78.3,88.3,98.3,86.3,444.6,88.92,A,9.0,Pass
+25B11CE0166,Radhika Patel,Female,Civil Engineering,Semester 7,75.5,33.0,39.4,40.7,44.8,53.1,211.0,42.2,F,0.0,Fail
+25B11ME0173,Chandana Marella,Female,Mechanical Engineering,Semester 2,70.7,82.4,79.3,99.5,76.5,99.5,437.2,87.44,A,9.0,Pass
+25B11CS0164,Ganesh Mishra,Male,Computer Science & Engineering,Semester 4,81.0,71.0,56.4,71.3,74.3,80.8,353.8,70.76,B,8.0,Pass
+25B11IT0158,Aarav Sagi,Male,Information Technology,Semester 3,82.4,81.5,68.2,83.0,71.2,99.5,403.4,80.68,A,9.0,Pass
+25B11CE0167,Arjun Sagi,Male,Civil Engineering,Semester 5,69.5,71.2,69.5,71.8,66.7,74.5,353.7,70.74,B,8.0,Pass
+25B11IT0159,Manya Kanumuri,Female,Information Technology,Semester 8,71.5,49.4,49.7,50.4,53.2,49.8,252.5,50.5,D,6.0,Pass
+25B11EE0149,Vihaan Nallamilli,Male,Electrical & Electronics,Semester 8,89.6,78.7,76.1,84.1,75.5,82.8,397.2,79.44,B,8.0,Pass
+25B11IT0160,Neha Deshmukh,Female,Information Technology,Semester 4,98.2,99.5,99.5,99.5,99.5,99.5,497.5,99.5,A+,10.0,Pass
+25B11CE0168,Aadhya Das,Female,Civil Engineering,Semester 1,99.5,68.1,75.1,71.5,89.6,94.9,399.2,79.84,B,8.0,Pass
+25B11CS0165,Radhika Sagi,Female,Computer Science & Engineering,Semester 4,73.6,79.0,67.7,86.2,85.2,72.3,390.4,78.08,B,8.0,Pass
+25B11CE0169,Harini Peddireddy,Female,Civil Engineering,Semester 1,70.5,63.6,50.5,68.8,63.2,59.6,305.7,61.14,C,7.0,Pass
+25B11CE0170,Atharv Kumar,Male,Civil Engineering,Semester 1,78.3,76.5,80.2,61.3,56.2,71.4,345.6,69.12,C,7.0,Pass
+25B11EC0149,Aadhya Malhotra,Female,Electronics & Communication,Semester 2,87.5,67.8,64.3,74.4,59.7,80.7,346.9,69.38,C,7.0,Pass
+25B11CS0166,Manya Gupta,Female,Computer Science & Engineering,Semester 5,93.9,61.7,50.6,58.2,46.6,44.2,261.3,52.26,D,6.0,Pass
+25B11EC0150,Geethika Gupta,Female,Electronics & Communication,Semester 7,81.8,92.9,86.3,98.1,94.3,87.6,459.2,91.84,A+,10.0,Pass
+25B11ME0174,Bhuvan Verma,Male,Mechanical Engineering,Semester 4,79.5,77.2,76.3,82.5,65.8,84.5,386.3,77.26,B,8.0,Pass
+25B11CS0167,Sameer Bose,Male,Computer Science & Engineering,Semester 5,70.7,56.1,67.8,76.9,66.0,71.1,337.9,67.58,C,7.0,Pass
+25B11EC0151,Manya Yarlagadda,Female,Electronics & Communication,Semester 7,79.4,67.2,69.8,73.0,81.6,66.1,357.7,71.54,B,8.0,Pass
+25B11EC0152,Diya Kalyanam,Female,Electronics & Communication,Semester 1,86.3,80.2,67.4,84.3,84.0,82.0,397.9,79.58,B,8.0,Pass
+25B11ME0175,Vihaan Joshi,Male,Mechanical Engineering,Semester 2,88.5,77.8,63.8,69.5,65.7,63.6,340.4,68.08,C,7.0,Pass
+25B11EE0150,Neha Bhatia,Female,Electrical & Electronics,Semester 6,86.2,88.2,87.9,99.5,87.4,98.5,461.5,92.3,A+,10.0,Pass
+25B11IT0161,Diya Peddireddy,Female,Information Technology,Semester 8,94.0,56.4,70.3,69.0,55.7,66.5,317.9,63.58,C,7.0,Pass
+25B11EE0151,Atharv Deshmukh,Male,Electrical & Electronics,Semester 5,85.5,52.4,48.8,57.6,55.3,79.1,293.2,58.64,D,6.0,Pass
+25B11EC0153,Bhavana Choudhary,Female,Electronics & Communication,Semester 6,99.5,60.2,70.6,83.5,68.0,67.3,349.6,69.92,C,7.0,Pass
+25B11CS0168,Deepak Kumar,Male,Computer Science & Engineering,Semester 6,99.5,75.8,75.9,95.8,80.3,86.3,414.1,82.82,A,9.0,Pass
+25B11EE0152,Venkatesh Bandaru,Male,Electrical & Electronics,Semester 2,91.3,97.1,99.5,99.5,99.5,99.5,495.1,99.02,A+,10.0,Pass
+25B11CE0171,Vihaan Verma,Male,Civil Engineering,Semester 2,99.5,99.5,87.7,99.5,99.5,99.5,485.7,97.14,A+,10.0,Pass
+25B11EC0154,Prisha Das,Female,Electronics & Communication,Semester 8,86.2,81.8,87.8,91.0,83.8,98.1,442.5,88.5,A,9.0,Pass
+25B11IT0162,Chandana Sen,Female,Information Technology,Semester 4,85.5,54.2,53.9,55.6,59.5,73.0,296.2,59.24,D,6.0,Pass
+25B11ME0176,Harsh Verma,Male,Mechanical Engineering,Semester 8,89.6,99.5,99.5,99.5,99.5,99.5,497.5,99.5,A+,10.0,Pass
+25B11EC0155,Ramesh Penmatsa,Male,Electronics & Communication,Semester 7,74.3,43.6,39.6,49.5,56.9,53.9,243.5,48.7,F,0.0,Fail
+25B11CS0169,Pavan Velagapudi,Male,Computer Science & Engineering,Semester 5,72.1,63.2,48.5,68.5,51.8,73.1,305.1,61.02,C,7.0,Pass
+25B11CS0170,Arjun Velagapudi,Male,Computer Science & Engineering,Semester 4,75.3,56.2,62.8,80.6,64.9,77.1,341.6,68.32,C,7.0,Pass
+25B11CE0172,Keerthi Shaik,Female,Civil Engineering,Semester 1,74.9,58.8,63.8,76.6,57.3,70.8,327.3,65.46,C,7.0,Pass
+25B11ME0177,Deepika Shaik,Female,Mechanical Engineering,Semester 8,78.9,87.2,70.6,91.0,90.1,96.4,435.3,87.06,A,9.0,Pass
+25B11CS0171,Aadhya Kumar,Female,Computer Science & Engineering,Semester 2,84.1,68.6,47.9,85.1,73.3,93.7,368.6,73.72,B,8.0,Pass
+25B11CS0172,Yamini Kalyanam,Female,Computer Science & Engineering,Semester 8,85.3,48.2,58.5,76.9,76.4,76.4,336.4,67.28,C,7.0,Pass
+25B11CE0173,Reyansh Gupta,Male,Civil Engineering,Semester 6,73.8,77.9,55.2,83.0,63.8,82.5,362.4,72.48,B,8.0,Pass
+25B11CS0173,Dev Pandey,Male,Computer Science & Engineering,Semester 6,63.6,38.3,43.6,33.0,25.6,40.0,180.5,36.1,F,0.0,Fail
+25B11ME0178,Aniket Penmatsa,Male,Mechanical Engineering,Semester 4,69.9,24.0,30.5,17.5,31.0,18.0,121.0,24.2,F,0.0,Fail
+25B11ME0179,Advaith Yarlagadda,Male,Mechanical Engineering,Semester 8,78.7,88.9,73.4,93.9,93.1,99.5,448.8,89.76,A,9.0,Pass
+25B11ME0180,Ayaan Bhatia,Male,Mechanical Engineering,Semester 8,58.2,62.8,67.0,81.2,64.9,61.9,337.8,67.56,C,7.0,Pass
+25B11EE0153,Indira Gollapudi,Female,Electrical & Electronics,Semester 6,98.6,90.4,88.9,96.0,86.8,99.5,461.6,92.32,A+,10.0,Pass
+25B11EE0154,Krishna Bandaru,Male,Electrical & Electronics,Semester 2,90.4,91.6,73.1,99.5,96.9,99.5,460.6,92.12,A+,10.0,Pass
+25B11CE0174,Vivaan Mishra,Male,Civil Engineering,Semester 3,82.8,49.8,47.8,66.7,59.2,56.4,279.9,55.98,D,6.0,Pass
+25B11EC0156,Divya Bhatia,Female,Electronics & Communication,Semester 2,82.0,69.8,79.3,84.7,80.5,79.9,394.2,78.84,B,8.0,Pass
+25B11EE0155,Karthik Chintalapati,Male,Electrical & Electronics,Semester 2,91.2,81.1,79.3,85.4,85.0,95.8,426.6,85.32,A,9.0,Pass
+25B11ME0181,Krishna Patel,Male,Mechanical Engineering,Semester 1,61.5,49.8,39.9,45.7,53.9,47.4,236.7,47.34,F,0.0,Fail
+25B11CE0175,Geethika Dandu,Female,Civil Engineering,Semester 6,96.5,96.2,85.9,99.5,81.8,95.3,458.7,91.74,A+,10.0,Pass
+25B11EC0157,Aarohi Pandey,Female,Electronics & Communication,Semester 6,82.3,82.3,69.8,77.2,79.0,93.6,401.9,80.38,A,9.0,Pass
+25B11CE0176,Pooja Patel,Female,Civil Engineering,Semester 8,66.1,45.0,37.9,35.0,58.7,63.9,240.5,48.1,F,0.0,Fail
+25B11ME0182,Deepika Shaik,Female,Mechanical Engineering,Semester 8,89.1,71.9,68.2,88.2,71.2,67.1,366.6,73.32,B,8.0,Pass
+25B11CE0177,Yamini Kulkarni,Female,Civil Engineering,Semester 7,58.0,48.0,47.3,62.8,50.0,58.0,266.1,53.22,D,6.0,Pass
+25B11EE0156,Krishna Mehta,Male,Electrical & Electronics,Semester 3,99.5,99.5,99.5,99.5,99.5,99.5,497.5,99.5,A+,10.0,Pass
+25B11EE0157,Ishaan Kumar,Male,Electrical & Electronics,Semester 2,76.6,99.5,97.6,90.1,86.9,81.4,455.5,91.1,A+,10.0,Pass
+25B11EE0158,Pavan Verma,Male,Electrical & Electronics,Semester 6,69.1,61.2,47.9,56.3,55.9,58.9,280.2,56.04,D,6.0,Pass
+25B11ME0183,Karthik Peddireddy,Male,Mechanical Engineering,Semester 2,80.9,80.3,92.5,97.0,97.0,99.5,466.3,93.26,A+,10.0,Pass
+25B11IT0163,Bhuvan Dandu,Male,Information Technology,Semester 4,75.0,62.9,73.1,72.4,83.4,89.3,381.1,76.22,B,8.0,Pass
+25B11ME0184,Divya Joshi,Female,Mechanical Engineering,Semester 8,74.9,69.7,76.0,80.1,89.1,82.8,397.7,79.54,B,8.0,Pass
+25B11CE0178,Bhuvan Patel,Male,Civil Engineering,Semester 5,80.3,70.7,58.7,76.8,79.5,81.0,366.7,73.34,B,8.0,Pass
+25B11ME0185,Aarohi Chatterjee,Female,Mechanical Engineering,Semester 8,85.2,70.5,67.6,72.0,72.7,78.6,361.4,72.28,B,8.0,Pass
+25B11ME0186,Pranathi Bandaru,Female,Mechanical Engineering,Semester 1,90.8,90.5,75.9,79.6,95.1,89.8,430.9,86.18,A,9.0,Pass
+25B11CS0174,Bhuvan Rao,Male,Computer Science & Engineering,Semester 7,83.2,95.9,92.4,99.5,91.0,95.0,473.8,94.76,A+,10.0,Pass
+25B11EE0159,Chaitanya Banerjee,Male,Electrical & Electronics,Semester 2,96.7,98.0,97.6,99.5,99.5,99.5,494.1,98.82,A+,10.0,Pass
+25B11EE0160,Chaitanya Mishra,Male,Electrical & Electronics,Semester 6,83.3,55.0,57.2,80.5,56.9,87.9,337.5,67.5,C,7.0,Pass
+25B11ME0187,Diya Nallamilli,Female,Mechanical Engineering,Semester 2,69.9,35.2,43.0,59.4,49.1,51.3,238.0,47.6,F,0.0,Fail
+25B11EC0158,Tanvi Chopra,Female,Electronics & Communication,Semester 1,61.0,83.0,69.8,75.9,74.4,83.8,386.9,77.38,B,8.0,Pass
+25B11EC0159,Manasa Singh,Female,Electronics & Communication,Semester 7,83.6,92.5,82.4,87.8,93.0,72.3,428.0,85.6,A,9.0,Pass
+25B11ME0188,Khushi Banerjee,Female,Mechanical Engineering,Semester 3,74.3,61.0,56.8,73.1,61.4,59.8,312.1,62.42,C,7.0,Pass
+25B11ME0189,Pavan Jain,Male,Mechanical Engineering,Semester 7,76.7,71.0,80.6,82.4,57.1,87.5,378.6,75.72,B,8.0,Pass
+25B11CE0179,Yamini Kumar,Female,Civil Engineering,Semester 2,92.5,71.8,78.4,84.0,68.8,87.7,390.7,78.14,B,8.0,Pass
+25B11CE0180,Anupama Bose,Female,Civil Engineering,Semester 2,99.5,84.0,75.4,82.1,79.5,87.3,408.3,81.66,A,9.0,Pass
+25B11ME0190,Aarohi Malhotra,Female,Mechanical Engineering,Semester 5,84.8,80.0,76.2,66.7,78.4,75.6,376.9,75.38,B,8.0,Pass
+25B11IT0164,Kavya Yadav,Female,Information Technology,Semester 5,81.3,47.4,46.2,56.3,48.1,52.8,250.8,50.16,D,6.0,Pass
+25B11CS0175,Jahnavi Ghosh,Female,Computer Science & Engineering,Semester 4,72.9,49.1,63.5,67.1,69.0,76.8,325.5,65.1,C,7.0,Pass
+25B11CE0181,Vihaan Jain,Male,Civil Engineering,Semester 3,75.7,99.5,80.8,89.2,87.3,95.5,452.3,90.46,A+,10.0,Pass
+25B11IT0165,Deepika Kovvuri,Female,Information Technology,Semester 3,93.6,59.9,72.2,85.9,73.5,81.5,373.0,74.6,B,8.0,Pass
+25B11IT0166,Gauri Marella,Female,Information Technology,Semester 7,87.6,95.3,80.4,80.3,87.6,92.5,436.1,87.22,A,9.0,Pass
+25B11CE0182,Jahnavi Gudipati,Female,Civil Engineering,Semester 4,76.8,99.5,99.5,99.5,99.5,99.5,497.5,99.5,A+,10.0,Pass
+25B11CS0176,Gauri Penmatsa,Female,Computer Science & Engineering,Semester 3,61.6,72.8,79.5,71.8,70.4,98.0,392.5,78.5,B,8.0,Pass
+25B11ME0191,Ayaan Banerjee,Male,Mechanical Engineering,Semester 5,76.3,91.3,98.3,90.6,98.1,95.2,473.5,94.7,A+,10.0,Pass
+25B11EC0160,Venkatesh Malhotra,Male,Electronics & Communication,Semester 7,76.9,64.3,51.3,77.1,76.1,68.3,337.1,67.42,C,7.0,Pass
+25B11IT0167,Radhika Joshi,Female,Information Technology,Semester 7,86.8,75.5,61.5,62.5,73.9,69.1,342.5,68.5,C,7.0,Pass
+25B11IT0168,Dhruv Datla,Male,Information Technology,Semester 8,71.5,30.4,39.4,65.0,49.0,58.2,242.0,48.4,F,0.0,Fail
+25B11IT0169,Divya Kulkarni,Female,Information Technology,Semester 7,69.7,57.0,48.6,57.8,46.8,67.4,277.6,55.52,D,6.0,Pass
+25B11EC0161,Indira Nallamilli,Female,Electronics & Communication,Semester 2,64.6,28.8,26.1,35.0,18.3,35.6,143.8,28.76,F,0.0,Fail
+25B11EC0162,Pooja Deshmukh,Female,Electronics & Communication,Semester 6,98.9,91.7,83.3,87.3,99.5,99.5,461.3,92.26,A+,10.0,Pass
+25B11CE0183,Indira Chopra,Female,Civil Engineering,Semester 2,85.2,67.0,73.7,79.0,69.0,75.6,364.3,72.86,B,8.0,Pass
+25B11EC0163,Chaitanya Chatterjee,Male,Electronics & Communication,Semester 4,70.7,64.1,73.3,67.4,60.8,76.0,341.6,68.32,C,7.0,Pass
+25B11IT0170,Bhavana Choudhary,Female,Information Technology,Semester 4,77.8,70.9,78.9,85.7,98.8,91.4,425.7,85.14,A,9.0,Pass
+25B11CE0184,Sai Yadav,Male,Civil Engineering,Semester 4,60.9,43.4,43.4,32.6,35.6,39.7,194.7,38.94,F,0.0,Fail
+25B11EE0161,Isha Datla,Female,Electrical & Electronics,Semester 2,67.3,60.8,59.5,65.1,53.0,46.2,284.6,56.92,D,6.0,Pass
+25B11CS0177,Nikhil Tadicherla,Male,Computer Science & Engineering,Semester 8,99.5,99.5,99.5,99.5,99.5,99.5,497.5,99.5,A+,10.0,Pass
+25B11ME0192,Vivaan Kanumuri,Male,Mechanical Engineering,Semester 2,75.2,52.4,61.4,69.0,70.0,90.0,342.8,68.56,C,7.0,Pass
+25B11CS0178,Yamini Sagi,Female,Computer Science & Engineering,Semester 5,57.3,65.3,59.7,62.1,66.0,71.8,324.9,64.98,C,7.0,Pass
+25B11CS0179,Swathi Dandu,Female,Computer Science & Engineering,Semester 7,92.9,99.5,94.0,99.5,71.3,99.5,463.8,92.76,A+,10.0,Pass
+25B11CE0185,Simran Velagapudi,Female,Civil Engineering,Semester 5,76.6,37.6,32.0,46.6,51.1,51.9,219.2,43.84,F,0.0,Fail
+25B11CS0180,Riya Verma,Female,Computer Science & Engineering,Semester 8,81.4,81.1,85.7,99.5,94.3,99.5,460.1,92.02,A+,10.0,Pass
+25B11EE0162,Tejaswini Dandu,Female,Electrical & Electronics,Semester 6,93.8,70.0,65.6,68.0,76.4,86.2,366.2,73.24,B,8.0,Pass
+25B11EC0164,Sneha Gudipati,Female,Electronics & Communication,Semester 8,84.4,73.5,54.0,65.3,61.0,83.1,336.9,67.38,C,7.0,Pass
+25B11CE0186,Divya Bose,Female,Civil Engineering,Semester 7,91.8,99.5,99.5,99.5,99.5,99.5,497.5,99.5,A+,10.0,Pass
+25B11EE0163,Sai Ghosh,Male,Electrical & Electronics,Semester 2,87.0,85.2,87.5,89.9,73.2,99.5,435.3,87.06,A,9.0,Pass
+25B11ME0193,Lakshmi Gudipati,Female,Mechanical Engineering,Semester 4,87.8,66.6,63.8,73.8,50.6,71.1,325.9,65.18,C,7.0,Pass
+25B11CE0187,Meera Choudhary,Female,Civil Engineering,Semester 5,95.6,91.3,86.7,99.5,94.6,99.5,471.6,94.32,A+,10.0,Pass
+25B11ME0194,Manoj Banerjee,Male,Mechanical Engineering,Semester 7,74.7,73.1,57.0,70.3,75.2,77.0,352.6,70.52,B,8.0,Pass
+25B11EC0165,Manish Joshi,Male,Electronics & Communication,Semester 6,94.6,76.3,80.7,74.9,83.0,92.4,407.3,81.46,A,9.0,Pass
+25B11ME0195,Deepak Sen,Male,Mechanical Engineering,Semester 8,88.7,84.6,77.8,65.4,78.9,81.2,387.9,77.58,B,8.0,Pass
+25B11CE0188,Pranav Kulkarni,Male,Civil Engineering,Semester 6,74.6,68.7,60.2,74.8,63.5,57.1,324.3,64.86,C,7.0,Pass
+25B11EE0164,Prisha Singh,Female,Electrical & Electronics,Semester 8,64.5,62.1,62.1,59.1,67.6,73.8,324.7,64.94,C,7.0,Pass
+25B11EC0166,Ganesh Kalyanam,Male,Electronics & Communication,Semester 7,67.1,67.5,82.9,87.8,89.3,85.2,412.7,82.54,A,9.0,Pass
+25B11CS0181,Dhruv Verma,Male,Computer Science & Engineering,Semester 6,70.7,66.0,85.6,80.4,83.1,83.8,398.9,79.78,B,8.0,Pass
+25B11EC0167,Shreya Saxena,Female,Electronics & Communication,Semester 4,80.1,99.5,99.5,99.5,99.5,99.5,497.5,99.5,A+,10.0,Pass
+25B11EE0165,Payal Mishra,Female,Electrical & Electronics,Semester 8,72.9,52.5,66.8,66.3,74.2,72.8,332.6,66.52,C,7.0,Pass
+25B11EE0166,Madhav Reddy,Male,Electrical & Electronics,Semester 1,85.9,56.8,77.3,77.8,84.1,66.8,362.8,72.56,B,8.0,Pass
+25B11CS0182,Dev Velagapudi,Male,Computer Science & Engineering,Semester 2,77.0,66.5,76.4,71.2,70.9,90.1,375.1,75.02,B,8.0,Pass
+25B11CE0189,Kavya Gudipati,Female,Civil Engineering,Semester 1,71.2,59.4,70.0,73.3,87.0,63.0,352.7,70.54,B,8.0,Pass
+25B11EE0167,Jagadeesh Yadav,Male,Electrical & Electronics,Semester 6,80.9,95.4,96.7,99.5,99.5,99.5,490.6,98.12,A+,10.0,Pass
+25B11EC0168,Neha Kulkarni,Female,Electronics & Communication,Semester 2,76.7,49.3,48.0,63.2,34.4,59.5,254.4,50.88,F,0.0,Fail
+25B11CS0183,Manasa Sagi,Female,Computer Science & Engineering,Semester 5,67.4,88.6,85.0,96.4,91.3,99.5,460.8,92.16,A+,10.0,Pass
+25B11CS0184,Vanya Malhotra,Female,Computer Science & Engineering,Semester 3,83.9,74.7,53.8,79.3,83.1,94.2,385.1,77.02,B,8.0,Pass
+25B11CE0190,Ramesh Deshmukh,Male,Civil Engineering,Semester 5,79.5,70.2,87.1,87.3,79.6,82.1,406.3,81.26,A,9.0,Pass
+25B11IT0171,Tanvi Kulkarni,Female,Information Technology,Semester 8,88.3,91.1,76.7,99.5,98.4,99.5,465.2,93.04,A+,10.0,Pass
+25B11EC0169,Pooja Gollapudi,Female,Electronics & Communication,Semester 7,73.7,86.4,88.8,99.5,99.5,99.5,473.7,94.74,A+,10.0,Pass
+25B11CE0191,Ramesh Kovvuri,Male,Civil Engineering,Semester 7,74.4,65.5,76.2,75.0,60.8,66.3,343.8,68.76,C,7.0,Pass
+25B11CS0185,Ritu Iyer,Female,Computer Science & Engineering,Semester 2,70.8,27.2,55.3,46.3,46.1,39.1,214.0,42.8,F,0.0,Fail
+25B11ME0196,Deepak Bhatia,Male,Mechanical Engineering,Semester 7,80.4,82.4,91.0,99.3,93.6,89.8,456.1,91.22,A+,10.0,Pass
+25B11CE0192,Vivaan Yadav,Male,Civil Engineering,Semester 6,67.5,53.6,57.9,63.6,70.9,64.3,310.3,62.06,C,7.0,Pass
+25B11CE0193,Madhav Kanumuri,Male,Civil Engineering,Semester 6,85.6,94.4,99.5,99.5,99.5,98.4,491.3,98.26,A+,10.0,Pass
+25B11ME0197,Jagadeesh Chintalapati,Male,Mechanical Engineering,Semester 6,77.5,55.8,31.4,47.8,53.6,45.5,234.1,46.82,F,0.0,Fail
+25B11EC0170,Dileep Gollapudi,Male,Electronics & Communication,Semester 1,91.8,99.5,98.3,99.5,99.5,99.5,496.3,99.26,A+,10.0,Pass
+25B11CE0194,Bhuvan Rao,Male,Civil Engineering,Semester 7,81.9,66.8,58.6,73.5,64.8,71.9,335.6,67.12,C,7.0,Pass
+25B11ME0198,Ishaan Gollapudi,Male,Mechanical Engineering,Semester 8,88.2,55.3,65.8,67.6,56.3,59.6,304.6,60.92,C,7.0,Pass
+25B11EE0168,Sanjay Marella,Male,Electrical & Electronics,Semester 2,99.5,85.4,76.3,80.7,99.5,99.5,441.4,88.28,A,9.0,Pass
+25B11IT0172,Harsh Mishra,Male,Information Technology,Semester 2,99.5,79.2,99.5,86.7,72.4,92.6,430.4,86.08,A,9.0,Pass
+25B11IT0173,Neha Tadicherla,Female,Information Technology,Semester 6,78.4,75.9,74.5,94.2,70.4,71.5,386.5,77.3,B,8.0,Pass
+25B11EC0171,Tejaswini Yadav,Female,Electronics & Communication,Semester 1,69.6,90.1,98.4,99.5,89.1,99.5,476.6,95.32,A+,10.0,Pass
+25B11EC0172,Ganesh Nallamilli,Male,Electronics & Communication,Semester 3,85.3,62.8,66.0,54.9,68.2,61.3,313.2,62.64,C,7.0,Pass
+25B11EE0169,Diya Agarwal,Female,Electrical & Electronics,Semester 1,91.7,99.5,99.5,90.6,88.5,99.5,477.6,95.52,A+,10.0,Pass
+25B11IT0174,Kavya Bandaru,Female,Information Technology,Semester 5,94.1,62.9,57.0,72.7,71.9,80.5,345.0,69.0,C,7.0,Pass
+25B11EC0173,Charan Das,Male,Electronics & Communication,Semester 8,77.0,76.7,67.1,75.7,76.4,69.7,365.6,73.12,B,8.0,Pass
+25B11CS0186,Kusuma Joshi,Female,Computer Science & Engineering,Semester 6,92.0,96.0,93.4,98.2,99.5,97.9,485.0,97.0,A+,10.0,Pass
+25B11ME0199,Aditya Chintalapati,Male,Mechanical Engineering,Semester 4,86.4,89.6,78.2,88.6,93.6,95.8,445.8,89.16,A,9.0,Pass
+25B11CS0187,Meera Datla,Female,Computer Science & Engineering,Semester 7,66.4,72.6,77.8,82.0,74.0,77.5,383.9,76.78,B,8.0,Pass
+25B11CS289,GODI MALLIKARJUNA REDDY,Male,Computer Science & Engineering,Semester 4,85.0,85.0,75.0,70.0,80.0,82.0,392.0,78.4,B,8.0,Pass

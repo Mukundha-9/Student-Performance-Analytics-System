@@ -1,0 +1,102 @@
+[
+  {
+    "id": "NOTIF-1867",
+    "student_id": "25B11CS380",
+    "title": "Assignment Graded: Python Programming",
+    "message": "Prof. Prof. V. Priya graded your assignment 'Operating System Memory Simulation' - Marks: 24/25. Feedback: Excellent implementation and clear documentation!",
+    "category": "Grade Announcement",
+    "sender": "Prof. V. Priya",
+    "date": "27-Sep-2026 20:07",
+    "read": false
+  },
+  {
+    "id": "NOTIF-7855",
+    "student_id": "25B11CS380",
+    "title": "Assignment Submitted: Python Programming",
+    "message": "Your assignment 'Operating System Memory Simulation' was successfully submitted to correspondent faculty Prof. V. Priya.",
+    "category": "Academic Submission",
+    "sender": "Prof. V. Priya",
+    "date": "27-Sep-2026 20:07",
+    "read": false
+  },
+  {
+    "id": "NOTIF-9602",
+    "student_id": "25B11CS380",
+    "title": "Assignment Graded: Data Structures",
+    "message": "Prof. Dr. A. K. Sharma graded your assignment 'AVL Tree Rotations and Graph Search Implementations' - Marks: 29/30. Feedback: Exemplary solution with detailed complexity analysis.",
+    "category": "Grade Announcement",
+    "sender": "Dr. A. K. Sharma",
+    "date": "27-Sep-2026 19:44",
+    "read": false
+  },
+  {
+    "id": "NOTIF-6969",
+    "student_id": "25B11CS380",
+    "title": "Assignment Graded: Mathematics",
+    "message": "Prof. Prof. R. K. Varma graded your assignment 'Fourier Transform Analysis - Problem Set 3' - Marks: 19 / 20. Feedback: Very clear derivations and accurate integral transformations.",
+    "category": "Grade Announcement",
+    "sender": "Prof. R. K. Varma",
+    "date": "27-Sep-2026 18:38",
+    "read": false
+  },
+  {
+    "id": "NOTIF-4171",
+    "student_id": "25B11CS380",
+    "title": "Assignment Submitted: Mathematics",
+    "message": "Your assignment 'Fourier Transform Analysis - Problem Set 3' was successfully submitted to correspondent faculty Prof. R. K. Varma.",
+    "category": "Academic Submission",
+    "sender": "Prof. R. K. Varma",
+    "date": "27-Sep-2026 18:38",
+    "read": false
+  },
+  {
+    "id": 5,
+    "title": "Project Viva Schedule Announcement",
+    "category": "Exam",
+    "badge_class": "badge-danger",
+    "author": "Office of Registrar",
+    "date": "2026-08-28",
+    "target": "All",
+    "content": "DAE Viva examinations scheduled for Monday."
+  },
+  {
+    "id": 1,
+    "title": "End-Semester Theory & Practical Examination Schedule (AY 2025-26)",
+    "category": "Exam",
+    "badge_class": "badge-danger",
+    "author": "Office of Controller of Examinations",
+    "date": "2026-08-25",
+    "target": "All",
+    "content": "The End-Semester regular examinations for all B.Tech branches will commence from 15th September 2026. Hall Tickets are available for download in the Student Portal."
+  },
+  {
+    "id": 2,
+    "title": "Campus Placement Drive: Google, Microsoft & TCS Digital Registration",
+    "category": "Placement",
+    "badge_class": "badge-success",
+    "author": "Department Training & Placement Cell",
+    "date": "2026-08-22",
+    "target": "Student",
+    "content": "Eligible students with CGPA >= 7.5 and no active backlogs are advised to register on the placement portal before 5th September. Mock aptitude tests will be hosted this weekend."
+  },
+  {
+    "id": 3,
+    "title": "Continuous Internal Assessment (CIA-2) Marks Upload Deadline for Faculty",
+    "category": "Academic",
+    "badge_class": "badge-warning",
+    "author": "Dean of Academic Affairs",
+    "date": "2026-08-20",
+    "target": "Faculty",
+    "content": "All department faculty members are requested to enter and finalize CIA-2 internal marks in the Faculty Grading Desk by 31st August 05:00 PM."
+  },
+  {
+    "id": 4,
+    "title": "Mandatory Attendance Warning: 75% Biometric/Digital Roster Compliance",
+    "category": "Urgent",
+    "badge_class": "badge-danger",
+    "author": "Office of Principal & Dean Student Affairs",
+    "date": "2026-08-18",
+    "target": "All",
+    "content": "Students with overall attendance below 75% have been flagged for mandatory proctoring counselling. Non-compliance will result in detention from appearing in Semester Exams."
+  }
+]
