@@ -1,7 +1,21 @@
 # Student Performance Analytics System
 ### Data-Driven Analysis of Student Academic Performance
-**Department of Computer Science & Engineering  Aditya University**  
+**Department of Computer Science & Engineering • Aditya University**  
 *Course:* Data Analysis Essentials (DAE)
+
+---
+
+### 🌐 Live Interactive Portal (Direct Web Link)
+[![Live Portal](https://img.shields.io/badge/Live%20Demo-Open%20Portal-success?style=for-the-badge&logo=googlechrome)](https://providing-apparel-decreased-bennett.trycloudflare.com)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/Mukundha-9/Student-Performance-Analytics-System)
+
+👉 **Direct Live URL:** [**https://providing-apparel-decreased-bennett.trycloudflare.com**](https://providing-apparel-decreased-bennett.trycloudflare.com)  
+*(Opens directly in any browser on mobile, tablet, or desktop without installing anything)*
+
+#### 🔑 Quick Demo Credentials:
+- **Student Portal:** `25B11CS380` / `aditya@123`
+- **Faculty Portal:** `FAC_CS_101` / `faculty@123`
+- **Admin Portal:** `admin` / `admin@123`
 
 ---
 
