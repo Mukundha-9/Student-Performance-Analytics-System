@@ -83,10 +83,16 @@ function applyTheme(theme, showNotice = true) {
 }
 
 function refreshChartsTheme() {
-    if (currentRole === 'admin') {
-        loadAdminPortal();
-    } else if (currentRole === 'student') {
-        if (currentTab === 'student-overview-tab') loadStudentOverview(currentUser?.id);
+    try {
+        if (currentRole === 'admin') {
+            loadAdminPortal();
+        } else if (currentRole === 'student') {
+            if (currentTab === 'student-overview-tab' && currentUser && currentUser.id) {
+                loadStudentPortal(currentUser.id);
+            }
+        }
+    } catch (e) {
+        console.warn('refreshChartsTheme error:', e);
     }
 }
 
@@ -237,9 +243,8 @@ function renderLoginQuickChips(role) {
 function enterPortalDashboard(role, user) {
     document.getElementById('login-screen').classList.remove('active');
     document.getElementById('portal-dashboard').style.display = 'flex';
-    // Retain whatever theme was active on the main login screen (Dark or Light)
     const currentTheme = localStorage.getItem('aditya-theme') || document.documentElement.getAttribute('data-theme') || 'light';
-    applyTheme(currentTheme, false);
+    document.documentElement.setAttribute('data-theme', currentTheme);
     setPortalRole(role, user.user_id || user.id, user);
 }
 

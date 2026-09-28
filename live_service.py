@@ -123,7 +123,7 @@ def launch_tunnel():
                 clean = line.strip()
                 if 'trycloudflare.com' in clean:
                     m = re.search(r'https://[a-zA-Z0-9-]+\.trycloudflare\.com', clean)
-                    if m:
+                    if m and 'api.trycloudflare.com' not in m.group(0):
                         url = m.group(0)
                         if url != current_public_url:
                             current_public_url = url
