@@ -6,10 +6,10 @@
 ---
 
 ### 🌐 Live Interactive Portal (Direct Web Link)
-[![Live Portal](https://img.shields.io/badge/Live%20Demo-Open%20Portal-success?style=for-the-badge&logo=googlechrome)](https://providing-apparel-decreased-bennett.trycloudflare.com)
+[![Live Portal](https://img.shields.io/badge/Live%20Demo-Open%20Portal-success?style=for-the-badge&logo=googlechrome)](https://suggests-isle-routine-bucks.trycloudflare.com)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/Mukundha-9/Student-Performance-Analytics-System)
 
-👉 **Direct Live URL:** [**https://providing-apparel-decreased-bennett.trycloudflare.com**](https://providing-apparel-decreased-bennett.trycloudflare.com)  
+👉 **Direct Live URL:** [**https://suggests-isle-routine-bucks.trycloudflare.com**](https://suggests-isle-routine-bucks.trycloudflare.com)  
 *(Opens directly in any browser on mobile, tablet, or desktop without installing anything)*
 
 #### 🔑 Quick Demo Credentials:
