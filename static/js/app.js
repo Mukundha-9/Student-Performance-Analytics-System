@@ -311,14 +311,20 @@ function setPortalRole(role, userId, userProfile = null) {
 
     renderSidebarMenu(role);
 
-    // Default Tab per role
+    // Reset visual analytics state per role
     if (role === 'student') {
+        vaCurrentMode = 'individual';
+        vaSelectedStudentId = effectiveId;
         switchTab('student-overview-tab');
         loadStudentPortal(effectiveId);
     } else if (role === 'faculty') {
+        vaCurrentMode = 'individual';
+        if (!vaSelectedStudentId) vaSelectedStudentId = '25B11CS380';
         switchTab('faculty-attendance-tab');
         loadFacultyPortal(effectiveId);
     } else {
+        vaCurrentMode = 'individual';
+        if (!vaSelectedStudentId) vaSelectedStudentId = '25B11CS380';
         switchTab('admin-dashboard-tab');
         loadAdminPortal();
     }
@@ -1373,34 +1379,259 @@ async function runSimulation() {
     } catch (e) {}
 }
 
-// Matplotlib Gallery
-async function loadMatplotlibGallery() {
+// ==============================================================================
+// VISUAL ANALYTICS ENGINE (INDIVIDUAL STUDENT & COHORT PUBLICATION SUITE)
+// ==============================================================================
+let vaCurrentMode = 'individual'; // 'individual' | 'cohort'
+let vaSelectedStudentId = '25B11CS380';
+let vaStudentsCache = [];
+
+function initVisualAnalyticsControls() {
+    const btnInd = document.getElementById('btn-va-individual');
+    const btnCoh = document.getElementById('btn-va-cohort');
+    const btnRef = document.getElementById('btn-va-refresh');
+    const select = document.getElementById('va-student-select');
+
+    if (btnInd && !btnInd._vaInit) {
+        btnInd._vaInit = true;
+        btnInd.addEventListener('click', () => {
+            vaCurrentMode = 'individual';
+            updateVAToggleUI();
+            loadMatplotlibGallery(vaSelectedStudentId);
+        });
+    }
+
+    if (btnCoh && !btnCoh._vaInit) {
+        btnCoh._vaInit = true;
+        btnCoh.addEventListener('click', () => {
+            vaCurrentMode = 'cohort';
+            updateVAToggleUI();
+            loadMatplotlibGallery();
+        });
+    }
+
+    if (btnRef && !btnRef._vaInit) {
+        btnRef._vaInit = true;
+        btnRef.addEventListener('click', async () => {
+            const origHtml = btnRef.innerHTML;
+            btnRef.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Generating...';
+            btnRef.disabled = true;
+            try {
+                if (vaCurrentMode === 'individual') {
+                    await fetch(`/api/student/${vaSelectedStudentId}/charts/regenerate`, { method: 'POST' });
+                } else {
+                    await fetch('/api/regenerate', { method: 'POST' });
+                }
+                showToast('Visual analytics plots compiled successfully!', 'success');
+                await loadMatplotlibGallery(vaSelectedStudentId);
+            } catch (e) {
+                showToast('Error compiling visual analytics', 'error');
+            } finally {
+                btnRef.innerHTML = origHtml;
+                btnRef.disabled = false;
+            }
+        });
+    }
+
+    if (select && !select._vaInit) {
+        select._vaInit = true;
+        select.addEventListener('change', (e) => {
+            vaSelectedStudentId = e.target.value;
+            if (vaCurrentMode === 'individual') {
+                loadMatplotlibGallery(vaSelectedStudentId);
+            }
+        });
+    }
+}
+
+function updateVAToggleUI() {
+    const btnInd = document.getElementById('btn-va-individual');
+    const btnCoh = document.getElementById('btn-va-cohort');
+    const selectWrap = document.getElementById('va-student-select-wrap');
+    const banner = document.getElementById('va-student-banner');
+    const headerTitle = document.getElementById('va-header-title');
+    const headerSub = document.getElementById('va-header-sub');
+    const indLabel = document.getElementById('label-va-individual');
+
+    if (currentRole === 'student') {
+        if (indLabel) indLabel.innerText = 'My Individual Analytics';
+        if (selectWrap) selectWrap.style.display = 'none';
+    } else {
+        if (indLabel) indLabel.innerText = 'Individual Student Analytics';
+        if (selectWrap) selectWrap.style.display = (vaCurrentMode === 'individual') ? 'flex' : 'none';
+    }
+
+    if (vaCurrentMode === 'individual') {
+        btnInd?.classList.add('btn-primary');
+        btnInd?.classList.remove('btn-outline');
+        btnCoh?.classList.add('btn-outline');
+        btnCoh?.classList.remove('btn-primary');
+        if (banner) banner.style.display = 'block';
+        if (headerTitle) headerTitle.innerHTML = '<i class="fa-solid fa-chart-pie text-emerald"></i> Individual Student Visual Analytics Suite';
+        if (headerSub) headerSub.innerText = 'Personalized 300 DPI scientific analytics generated directly from student records';
+    } else {
+        btnCoh?.classList.add('btn-primary');
+        btnCoh?.classList.remove('btn-outline');
+        btnInd?.classList.add('btn-outline');
+        btnInd?.classList.remove('btn-primary');
+        if (banner) banner.style.display = 'none';
+        if (headerTitle) headerTitle.innerHTML = '<i class="fa-solid fa-image text-emerald"></i> University Cohort Publication Plots (500 Students)';
+        if (headerSub) headerSub.innerText = 'High-resolution cohort-wide statistical distributions and institutional regression models';
+    }
+}
+
+async function populateVAStudentSelect() {
+    const select = document.getElementById('va-student-select');
+    if (!select) return;
+
+    if (vaStudentsCache.length === 0) {
+        try {
+            const res = await fetch('/api/students?limit=500');
+            const data = await res.json();
+            vaStudentsCache = data.students || [];
+        } catch (e) {}
+    }
+
+    if (select.children.length <= 1 && vaStudentsCache.length > 0) {
+        select.innerHTML = '';
+        vaStudentsCache.forEach(s => {
+            const opt = document.createElement('option');
+            opt.value = s.student_id;
+            opt.innerText = `${s.student_id} - ${s.name} (${s.branch ? s.branch.split(' ')[0] : 'CSE'})`;
+            if (s.student_id === vaSelectedStudentId) opt.selected = true;
+            select.appendChild(opt);
+        });
+    }
+}
+
+async function loadMatplotlibGallery(targetStudentId = null) {
+    initVisualAnalyticsControls();
+
     const grid = document.getElementById('matplotlib-gallery-grid');
     if (!grid) return;
 
+    if (currentRole === 'student') {
+        vaCurrentMode = vaCurrentMode || 'individual';
+        vaSelectedStudentId = currentUser?.id || currentUser?.user_id || '25B11CS380';
+    } else {
+        if (targetStudentId) {
+            vaSelectedStudentId = targetStudentId;
+        } else if (!vaSelectedStudentId) {
+            vaSelectedStudentId = '25B11CS380';
+        }
+        await populateVAStudentSelect();
+    }
+
+    updateVAToggleUI();
+
+    grid.innerHTML = `
+        <div style="grid-column: 1 / -1; text-align: center; padding: 40px; color: var(--text-muted);">
+            <i class="fa-solid fa-spinner fa-spin fa-2x" style="color: var(--primary); margin-bottom: 12px; display: block;"></i>
+            <strong>Compiling High-Resolution Scientific Visual Analytics...</strong>
+        </div>
+    `;
+
     try {
-        const res = await fetch('/api/charts/list');
-        const data = await res.json();
-        grid.innerHTML = '';
-        (data.charts || []).forEach(c => {
-            const card = document.createElement('div');
-            card.className = 'gallery-card';
-            card.innerHTML = `
-                <div class="gallery-img-wrap" onclick="openLightbox('/api/charts/${c.filename}', '${c.name}')">
-                    <img src="/api/charts/${c.filename}" alt="${c.name}" loading="lazy">
-                </div>
-                <div class="gallery-card-body">
-                    <h4>${c.name}</h4>
-                    <p>${c.type} • 300 DPI Matplotlib Plot</p>
-                    <div style="display:flex; gap:8px;">
-                        <button class="btn btn-sm btn-outline" onclick="openLightbox('/api/charts/${c.filename}', '${c.name}')"><i class="fa-solid fa-expand"></i> View</button>
-                        <a href="/api/charts/${c.filename}" download="${c.filename}" class="btn btn-sm btn-primary"><i class="fa-solid fa-download"></i> PNG</a>
+        if (vaCurrentMode === 'individual') {
+            const cleanId = vaSelectedStudentId;
+            const res = await fetch(`/api/student/${cleanId}/charts/list`);
+            const data = await res.json();
+
+            if (data.student) {
+                const s = data.student;
+                const avatar = document.getElementById('va-banner-avatar');
+                const nameEl = document.getElementById('va-banner-name');
+                const idEl = document.getElementById('va-banner-id');
+                const branchEl = document.getElementById('va-banner-branch');
+                const rankEl = document.getElementById('va-banner-rank');
+                const pctEl = document.getElementById('va-banner-percentile');
+                const scoreEl = document.getElementById('va-banner-pct');
+                const gradeEl = document.getElementById('va-banner-grade');
+                const attEl = document.getElementById('va-banner-att');
+
+                const initials = s.name.split(' ').filter(Boolean).map(n => n[0]).join('').slice(0, 2).toUpperCase() || 'AU';
+                if (avatar) avatar.innerText = initials;
+                if (nameEl) nameEl.innerText = s.name;
+                if (idEl) idEl.innerText = s.student_id;
+                if (branchEl) branchEl.innerText = s.branch;
+                if (rankEl) rankEl.innerText = `#${s.class_rank} of ${s.total_students}`;
+                if (pctEl) pctEl.innerText = `Top ${(100 - s.percentile).toFixed(1)}%`;
+                if (scoreEl) scoreEl.innerText = `${s.percentage}%`;
+                if (gradeEl) gradeEl.innerText = `${s.grade} (${s.status})`;
+                if (attEl) attEl.innerText = `${s.attendance}%`;
+            }
+
+            grid.innerHTML = '';
+            (data.charts || []).forEach(c => {
+                const card = document.createElement('div');
+                card.className = 'gallery-card';
+                const imgSrc = `/api/student/${cleanId}/charts/${c.filename}`;
+                card.innerHTML = `
+                    <div class="gallery-img-wrap" onclick="openLightbox('${imgSrc}', '${c.name} - ${data.student?.name || cleanId}')">
+                        <img src="${imgSrc}" alt="${c.name}" loading="lazy">
                     </div>
-                </div>
-            `;
-            grid.appendChild(card);
-        });
-    } catch (e) {}
+                    <div class="gallery-card-body" style="display:flex; flex-direction:column; justify-content:space-between;">
+                        <div>
+                            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:6px; gap:8px;">
+                                <h4 style="margin:0; font-size:13.5px; font-weight:800; line-height:1.3;">${c.name}</h4>
+                                <span class="badge badge-primary" style="font-size:10px; font-weight:800; white-space:nowrap;">Personalized</span>
+                            </div>
+                            <p style="font-size:11.5px; color:var(--text-secondary); margin-bottom:12px; line-height:1.4;">${c.description || (c.type + ' • 300 DPI Matplotlib')}</p>
+                        </div>
+                        <div style="display:flex; gap:8px; margin-top:auto;">
+                            <button class="btn btn-sm btn-outline" onclick="openLightbox('${imgSrc}', '${c.name} - ${data.student?.name || cleanId}')" style="flex:1;">
+                                <i class="fa-solid fa-expand"></i> View
+                            </button>
+                            <a href="${imgSrc}" download="${cleanId}_${c.filename}" class="btn btn-sm btn-primary" style="flex:1; text-align:center;">
+                                <i class="fa-solid fa-download"></i> PNG
+                            </a>
+                        </div>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        } else {
+            // Cohort batch charts
+            const res = await fetch('/api/charts/list');
+            const data = await res.json();
+            grid.innerHTML = '';
+            (data.charts || []).forEach(c => {
+                const card = document.createElement('div');
+                card.className = 'gallery-card';
+                const imgSrc = `/api/charts/${c.filename}`;
+                card.innerHTML = `
+                    <div class="gallery-img-wrap" onclick="openLightbox('${imgSrc}', '${c.name}')">
+                        <img src="${imgSrc}" alt="${c.name}" loading="lazy">
+                    </div>
+                    <div class="gallery-card-body" style="display:flex; flex-direction:column; justify-content:space-between;">
+                        <div>
+                            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:6px; gap:8px;">
+                                <h4 style="margin:0; font-size:13.5px; font-weight:800; line-height:1.3;">${c.name}</h4>
+                                <span class="badge" style="background:#e0e7ff; color:#3730a3; font-size:10px; font-weight:800; white-space:nowrap;">Cohort (500)</span>
+                            </div>
+                            <p style="font-size:11.5px; color:var(--text-secondary); margin-bottom:12px; line-height:1.4;">${c.type} • 300 DPI Matplotlib Publication Plot</p>
+                        </div>
+                        <div style="display:flex; gap:8px; margin-top:auto;">
+                            <button class="btn btn-sm btn-outline" onclick="openLightbox('${imgSrc}', '${c.name}')" style="flex:1;">
+                                <i class="fa-solid fa-expand"></i> View
+                            </button>
+                            <a href="${imgSrc}" download="${c.filename}" class="btn btn-sm btn-primary" style="flex:1; text-align:center;">
+                                <i class="fa-solid fa-download"></i> PNG
+                            </a>
+                        </div>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+    } catch (e) {
+        grid.innerHTML = `
+            <div style="grid-column: 1 / -1; text-align: center; padding: 30px; color: #ef4444;">
+                <i class="fa-solid fa-triangle-exclamation fa-2x" style="margin-bottom: 8px;"></i>
+                <p>Failed to load visual analytics. Please try clicking "Re-generate".</p>
+            </div>
+        `;
+    }
 }
 
 // Academic Report

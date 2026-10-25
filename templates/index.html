@@ -233,7 +233,10 @@
                         <div class="chart-card">
                             <div class="chart-header">
                                 <h3><i class="fa-solid fa-spider"></i> My Academic Competency Radar</h3>
-                                <span class="badge badge-info">5-Axis Analysis</span>
+                                <div style="display:flex; gap:8px; align-items:center;">
+                                    <span class="badge badge-info">5-Axis Analysis</span>
+                                    <button type="button" class="btn btn-sm btn-outline" onclick="switchTab('matplotlib-tab'); loadMatplotlibGallery();" title="View Personalized 300 DPI Visual Analytics Suite"><i class="fa-solid fa-chart-pie text-emerald"></i> Visual Analytics</button>
+                                </div>
                             </div>
                             <div class="chart-body" style="height: 320px;">
                                 <canvas id="chart-student-radar"></canvas>
@@ -1767,15 +1770,79 @@
                     </div>
                 </section>
 
-                <!-- TAB: Shared Matplotlib Gallery -->
+                <!-- TAB: Visual Analytics (Individual Student & Cohort Publication Gallery) -->
                 <section class="tab-content" id="matplotlib-tab">
                     <div class="panel-card mb-3">
-                        <div class="panel-header">
+                        <div class="panel-header" style="flex-wrap: wrap; gap: 14px; justify-content: space-between; align-items: center;">
                             <div>
-                                <h3><i class="fa-solid fa-image text-emerald"></i> Matplotlib 300 DPI Publication Plots Gallery</h3>
-                                <p class="text-muted" style="font-size:12.5px;">High-resolution scientific visual analytics generated via pure Python Matplotlib</p>
+                                <h3 id="va-header-title"><i class="fa-solid fa-chart-pie text-emerald"></i> Visual Analytics & Scientific Plots</h3>
+                                <p class="text-muted" id="va-header-sub" style="font-size:12.5px; margin: 0;">Personalized academic visual analytics generated via pure Python Matplotlib (300 DPI)</p>
+                            </div>
+                            
+                            <!-- Mode Switcher & Student Selector -->
+                            <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px;">
+                                <!-- Student Selector (Visible for Faculty, Admin, or when browsing) -->
+                                <div id="va-student-select-wrap" style="display: flex; align-items: center; gap: 6px;">
+                                    <label for="va-student-select" style="font-size: 12px; font-weight: 700; color: var(--text-secondary); white-space: nowrap;">
+                                        <i class="fa-solid fa-user-graduate text-primary"></i> Student:
+                                    </label>
+                                    <select id="va-student-select" class="form-input" style="padding: 5px 10px; font-size: 12px; border-radius: 6px; min-width: 220px; font-weight: 600;">
+                                        <!-- Injected via JS -->
+                                    </select>
+                                </div>
+
+                                <!-- View Toggle Segmented Buttons -->
+                                <div class="btn-group" role="group" style="display: inline-flex; border: 1px solid var(--border-color); border-radius: 8px; overflow: hidden;">
+                                    <button type="button" class="btn btn-sm btn-primary" id="btn-va-individual" style="border-radius: 0; font-weight: 700; font-size: 12px; padding: 6px 12px;">
+                                        <i class="fa-solid fa-user-check"></i> <span id="label-va-individual">Individual Student Analytics</span>
+                                    </button>
+                                    <button type="button" class="btn btn-sm btn-outline" id="btn-va-cohort" style="border-radius: 0; font-weight: 700; font-size: 12px; padding: 6px 12px;">
+                                        <i class="fa-solid fa-users"></i> Cohort Batch Analytics (500)
+                                    </button>
+                                </div>
+
+                                <button type="button" class="btn btn-sm btn-outline" id="btn-va-refresh" title="Re-generate and refresh charts" style="font-size: 12px; padding: 6px 12px;">
+                                    <i class="fa-solid fa-rotate"></i> Re-generate
+                                </button>
                             </div>
                         </div>
+
+                        <!-- Individual Student Snapshot Banner -->
+                        <div id="va-student-banner" class="mb-3" style="display: none; background: linear-gradient(135deg, rgba(15,43,92,0.06), rgba(234,88,12,0.06)); border: 1px solid rgba(15,43,92,0.12); border-radius: 10px; padding: 14px 18px; margin-top: 15px;">
+                            <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 14px;">
+                                <div style="display: flex; align-items: center; gap: 14px;">
+                                    <div style="width: 44px; height: 44px; border-radius: 50%; background: #0f2b5c; color: white; display: flex; align-items: center; justify-content: center; font-size: 16px; font-weight: 800; box-shadow: 0 2px 6px rgba(15,43,92,0.25);" id="va-banner-avatar">
+                                        KM
+                                    </div>
+                                    <div>
+                                        <h4 style="margin: 0; font-size: 16px; font-weight: 800; color: var(--text-primary);" id="va-banner-name">Kalyanam Mukundha</h4>
+                                        <div style="font-size: 12px; color: var(--text-muted); display: flex; gap: 10px; flex-wrap: wrap; margin-top: 4px;">
+                                            <span><i class="fa-solid fa-id-badge text-primary"></i> Roll: <strong id="va-banner-id">25B11CS380</strong></span>
+                                            <span>•</span>
+                                            <span><i class="fa-solid fa-building text-warning"></i> <span id="va-banner-branch">Computer Science & Engineering</span></span>
+                                            <span>•</span>
+                                            <span><i class="fa-solid fa-award text-success"></i> Class Rank: <strong id="va-banner-rank">#3</strong> (<span id="va-banner-percentile">Top 0.6%</span>)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+                                    <div class="mini-kpi" style="text-align: right;">
+                                        <span style="font-size: 11px; text-transform: uppercase; color: var(--text-muted); font-weight: 700; display: block;">Percentage</span>
+                                        <div style="font-size: 17px; font-weight: 800; color: #0f2b5c;" id="va-banner-pct">93.14%</div>
+                                    </div>
+                                    <div class="mini-kpi" style="text-align: right;">
+                                        <span style="font-size: 11px; text-transform: uppercase; color: var(--text-muted); font-weight: 700; display: block;">Grade / Status</span>
+                                        <div style="font-size: 17px; font-weight: 800; color: #10b981;" id="va-banner-grade">A+ (Pass)</div>
+                                    </div>
+                                    <div class="mini-kpi" style="text-align: right;">
+                                        <span style="font-size: 11px; text-transform: uppercase; color: var(--text-muted); font-weight: 700; display: block;">Attendance</span>
+                                        <div style="font-size: 17px; font-weight: 800; color: #0284c7;" id="va-banner-att">94.5%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Gallery Grid -->
                         <div class="gallery-grid" id="matplotlib-gallery-grid"></div>
                     </div>
                 </section>

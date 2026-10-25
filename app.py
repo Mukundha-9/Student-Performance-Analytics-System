@@ -437,6 +437,58 @@ def get_certificate(student_id):
     })
 
 
+@app.route('/api/student/<student_id>/charts/list', methods=['GET'])
+def get_student_charts_list_api(student_id):
+    clean_id = str(student_id).strip().upper()
+    df = data_manager.load_data()
+    card = analytics.get_student_rank_card(df, clean_id)
+    if not card:
+        return jsonify({'error': f'Student {clean_id} not found'}), 404
+
+    charts = visualizer.get_student_charts_list(clean_id)
+    return jsonify({
+        'student': {
+            'student_id': card['student_id'],
+            'name': card['name'],
+            'branch': card['branch'],
+            'semester': card.get('semester', 'Semester 4'),
+            'percentage': card['percentage'],
+            'grade': card['grade'],
+            'status': card['status'],
+            'attendance': card['attendance'],
+            'class_rank': card['class_rank'],
+            'total_students': card['total_students'],
+            'percentile': card['percentile']
+        },
+        'charts': charts
+    })
+
+
+@app.route('/api/student/<student_id>/charts/<filename>', methods=['GET'])
+def get_student_chart_image(student_id, filename):
+    clean_id = str(student_id).strip().upper()
+    student_dir = os.path.join(REPORTS_DIR, 'students', clean_id)
+    file_path = os.path.join(student_dir, filename)
+
+    if not os.path.exists(file_path):
+        df = data_manager.load_data()
+        visualizer.generate_student_visual_analytics(df, clean_id, output_dir=student_dir)
+
+    if not os.path.exists(file_path):
+        return jsonify({'error': f'Chart {filename} could not be generated'}), 404
+
+    return send_from_directory(student_dir, filename)
+
+
+@app.route('/api/student/<student_id>/charts/regenerate', methods=['POST'])
+def regenerate_student_charts_api(student_id):
+    clean_id = str(student_id).strip().upper()
+    df = data_manager.load_data()
+    student_dir = os.path.join(REPORTS_DIR, 'students', clean_id)
+    charts = visualizer.generate_student_visual_analytics(df, clean_id, output_dir=student_dir)
+    return jsonify({'success': True, 'message': f'Personalized charts regenerated for {clean_id}', 'charts': charts})
+
+
 @app.route('/api/charts/list', methods=['GET'])
 def list_charts():
     chart_info = [
